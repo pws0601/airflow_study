@@ -3322,3 +3322,1799 @@ File Path                                                                       
 /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.19s           2023-06-02T15:06:05
 ================================================================================
 [2023-06-02 15:06:39,957] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2023-06-10 15:45:29,765] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2023-06-10 15:45:29,767] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2023-06-10 15:45:29,771] {manager.py:483} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-06-10 15:45:29,774] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-10 15:45:29,838] {manager.py:693} INFO - There are 34 files in /opt/airflow/dags
+[2023-06-10 15:45:45,742] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.09s           2023-06-10T15:45:32
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.09s           2023-06-10T15:45:32
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.21s           2023-06-10T15:45:30
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.14s           2023-06-10T15:45:30
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.16s           2023-06-10T15:45:30
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.09s           2023-06-10T15:45:30
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.09s           2023-06-10T15:45:30
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.09s           2023-06-10T15:45:30
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.11s           2023-06-10T15:45:30
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.16s           2023-06-10T15:45:30
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.17s           2023-06-10T15:45:30
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.19s           2023-06-10T15:45:30
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.19s           2023-06-10T15:45:30
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.19s           2023-06-10T15:45:30
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.18s           2023-06-10T15:45:31
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.12s           2023-06-10T15:45:31
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.14s           2023-06-10T15:45:31
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 1           0  0.15s           2023-06-10T15:45:31
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.15s           2023-06-10T15:45:31
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.14s           2023-06-10T15:45:31
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.16s           2023-06-10T15:45:31
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.11s           2023-06-10T15:45:31
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.13s           2023-06-10T15:45:31
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.12s           2023-06-10T15:45:31
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.16s           2023-06-10T15:45:31
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.21s           2023-06-10T15:45:32
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.18s           2023-06-10T15:45:32
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.14s           2023-06-10T15:45:32
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.31s           2023-06-10T15:45:32
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.32s           2023-06-10T15:45:32
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.19s           2023-06-10T15:45:30
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  2           0  0.15s           2023-06-10T15:45:31
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.24s           2023-06-10T15:45:32
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.17s           2023-06-10T15:45:30
+================================================================================
+[2023-06-10 15:46:16,327] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.05s           2023-06-10T15:46:03
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.04s           2023-06-10T15:46:03
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.14s           2023-06-10T15:46:00
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2023-06-10T15:46:00
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.06s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.06s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.06s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.06s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.07s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.08s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.08s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.07s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.09s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.10s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.08s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.07s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 1           0  0.07s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.07s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.08s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.10s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.07s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.07s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.08s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.07s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.10s           2023-06-10T15:46:03
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.09s           2023-06-10T15:46:03
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.08s           2023-06-10T15:46:03
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2023-06-10T15:46:03
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2023-06-10T15:46:03
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.10s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  2           0  0.08s           2023-06-10T15:46:01
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.10s           2023-06-10T15:46:03
+/home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.09s           2023-06-10T15:46:01
+================================================================================
+[2023-06-10 15:46:24,158] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2023-06-10 15:53:21,752] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2023-06-10 15:53:21,755] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2023-06-10 15:53:21,760] {manager.py:483} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-06-10 15:53:21,765] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-10 15:53:21,771] {manager.py:693} INFO - There are 0 files in /opt/airflow/dags
+[2023-06-10 15:53:45,634] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2023-06-10 15:58:50,497] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2023-06-10 15:58:50,501] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2023-06-10 15:58:50,509] {manager.py:483} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-06-10 15:58:50,515] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-10 15:58:50,522] {manager.py:693} INFO - There are 0 files in /opt/airflow/dags
+[2023-06-10 16:03:51,192] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-10 16:03:51,205] {manager.py:693} INFO - There are 0 files in /opt/airflow/dags
+[2023-06-10 16:08:51,751] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-10 16:08:51,759] {manager.py:693} INFO - There are 0 files in /opt/airflow/dags
+[2023-06-10 16:13:52,313] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-10 16:13:52,318] {manager.py:693} INFO - There are 0 files in /opt/airflow/dags
+[2023-06-10 16:18:52,809] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-10 16:18:52,828] {manager.py:693} INFO - There are 0 files in /opt/airflow/dags
+[2023-06-10 16:23:53,459] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-10 16:23:53,475] {manager.py:693} INFO - There are 0 files in /opt/airflow/dags
+[2023-06-10 16:28:53,996] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-10 16:28:54,003] {manager.py:693} INFO - There are 0 files in /opt/airflow/dags
+[2023-06-10 16:33:54,551] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-10 16:33:54,566] {manager.py:693} INFO - There are 0 files in /opt/airflow/dags
+[2023-06-10 16:38:55,174] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-10 16:38:55,189] {manager.py:693} INFO - There are 0 files in /opt/airflow/dags
+[2023-06-10 16:43:55,714] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-10 16:43:55,729] {manager.py:693} INFO - There are 0 files in /opt/airflow/dags
+[2023-06-10 16:48:37,743] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2023-06-10 16:49:45,078] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2023-06-10 16:49:45,080] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2023-06-10 16:49:45,084] {manager.py:483} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-06-10 16:49:45,086] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-10 16:49:45,102] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-10 16:49:45,139] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/download_rocket_launches.py     36  0.01s             0           0
+================================================================================
+[2023-06-10 16:50:15,216] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.19s           2023-06-10T16:49:45
+================================================================================
+[2023-06-10 16:50:45,522] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.18s           2023-06-10T16:50:15
+================================================================================
+[2023-06-10 16:51:15,854] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    132  0.01s             1           0  0.13s           2023-06-10T16:50:45
+================================================================================
+[2023-06-10 16:51:46,030] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    161  0.00s             1           0  0.10s           2023-06-10T16:51:15
+================================================================================
+[2023-06-10 16:52:16,226] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    188  0.01s             1           0  0.08s           2023-06-10T16:51:46
+================================================================================
+[2023-06-10 16:52:46,418] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    216  0.01s             1           0  0.11s           2023-06-10T16:52:16
+================================================================================
+[2023-06-10 16:53:16,640] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    235  0.01s             1           0  0.11s           2023-06-10T16:52:46
+================================================================================
+[2023-06-10 16:53:46,818] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    263  0.01s             1           0  0.12s           2023-06-10T16:53:16
+================================================================================
+[2023-06-10 16:54:17,002] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    290  0.01s             1           0  0.10s           2023-06-10T16:53:46
+================================================================================
+[2023-06-10 16:54:45,160] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-10 16:54:45,185] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-10 16:54:47,208] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    318  0.00s             1           0  0.11s           2023-06-10T16:54:17
+================================================================================
+[2023-06-10 16:55:17,367] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    347  0.01s             1           0  0.09s           2023-06-10T16:54:47
+================================================================================
+[2023-06-10 16:55:47,582] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    366  0.01s             1           0  0.10s           2023-06-10T16:55:17
+================================================================================
+[2023-06-10 16:56:17,767] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    393  0.00s             1           0  0.11s           2023-06-10T16:55:47
+================================================================================
+[2023-06-10 16:56:47,991] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    419  0.01s             1           0  0.08s           2023-06-10T16:56:17
+================================================================================
+[2023-06-10 16:57:18,172] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    446  0.01s             1           0  0.11s           2023-06-10T16:56:48
+================================================================================
+[2023-06-10 16:57:48,412] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    474  0.00s             1           0  0.11s           2023-06-10T16:57:18
+================================================================================
+[2023-06-10 16:58:18,605] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    494  0.01s             1           0  0.09s           2023-06-10T16:57:48
+================================================================================
+[2023-06-10 16:58:48,814] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    522  0.01s             1           0  0.11s           2023-06-10T16:58:18
+================================================================================
+[2023-06-10 16:59:19,004] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    549  0.01s             1           0  0.10s           2023-06-10T16:58:48
+================================================================================
+[2023-06-10 16:59:45,166] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-10 16:59:45,185] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-10 16:59:49,223] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    577  0.00s             1           0  0.13s           2023-06-10T16:59:19
+================================================================================
+[2023-06-10 17:00:19,409] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    604  0.00s             1           0  0.10s           2023-06-10T16:59:49
+================================================================================
+[2023-06-10 17:00:49,662] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    624  0.01s             1           0  0.10s           2023-06-10T17:00:19
+================================================================================
+[2023-06-10 17:01:19,798] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    652  0.01s             1           0  0.09s           2023-06-10T17:00:49
+================================================================================
+[2023-06-10 17:01:50,043] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    680  0.00s             1           0  0.14s           2023-06-10T17:01:19
+================================================================================
+[2023-06-10 17:02:20,243] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    708  0.01s             1           0  0.07s           2023-06-10T17:01:50
+================================================================================
+[2023-06-10 17:02:50,431] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    727  0.01s             1           0  0.12s           2023-06-10T17:02:20
+================================================================================
+[2023-06-10 17:03:20,617] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    755  0.01s             1           0  0.11s           2023-06-10T17:02:50
+================================================================================
+[2023-06-10 17:03:50,837] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    784  0.01s             1           0  0.11s           2023-06-10T17:03:20
+================================================================================
+[2023-06-10 17:04:21,007] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    811  0.00s             1           0  0.10s           2023-06-10T17:03:50
+================================================================================
+[2023-06-10 17:04:45,188] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-10 17:04:45,209] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-10 17:04:51,273] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    838  0.01s             1           0  0.08s           2023-06-10T17:04:21
+================================================================================
+[2023-06-10 17:05:21,462] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    857  0.01s             1           0  0.10s           2023-06-10T17:04:51
+================================================================================
+[2023-06-10 17:05:51,699] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    885  0.01s             1           0  0.11s           2023-06-10T17:05:21
+================================================================================
+[2023-06-10 17:06:21,902] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    913  0.01s             1           0  0.10s           2023-06-10T17:05:51
+================================================================================
+[2023-06-10 17:06:52,239] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    941  0.01s             1           0  0.11s           2023-06-10T17:06:21
+================================================================================
+[2023-06-10 17:07:22,461] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    968  0.00s             1           0  0.10s           2023-06-10T17:06:52
+================================================================================
+[2023-06-10 17:07:52,726] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py    986  0.00s             1           0  0.08s           2023-06-10T17:07:22
+================================================================================
+[2023-06-10 17:08:22,974] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1013  0.01s             1           0  0.07s           2023-06-10T17:07:52
+================================================================================
+[2023-06-10 17:08:53,192] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1041  0.00s             1           0  0.11s           2023-06-10T17:08:23
+================================================================================
+[2023-06-10 17:09:23,398] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1069  0.01s             1           0  0.07s           2023-06-10T17:08:53
+================================================================================
+[2023-06-10 17:09:45,504] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-10 17:09:45,536] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-10 17:09:53,611] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1097  0.01s             1           0  0.11s           2023-06-10T17:09:23
+================================================================================
+[2023-06-10 17:10:23,812] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1116  0.01s             1           0  0.11s           2023-06-10T17:09:53
+================================================================================
+[2023-06-10 17:10:53,998] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1144  0.01s             1           0  0.11s           2023-06-10T17:10:23
+================================================================================
+[2023-06-10 17:11:24,203] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1171  0.00s             1           0  0.10s           2023-06-10T17:10:54
+================================================================================
+[2023-06-10 17:11:54,397] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1199  0.00s             1           0  0.08s           2023-06-10T17:11:24
+================================================================================
+[2023-06-10 17:12:24,585] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1227  0.00s             1           0  0.07s           2023-06-10T17:11:54
+================================================================================
+[2023-06-10 17:12:54,765] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1245  0.01s             1           0  0.08s           2023-06-10T17:12:24
+================================================================================
+[2023-06-10 17:13:24,933] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1272  0.01s             1           0  0.10s           2023-06-10T17:12:54
+================================================================================
+[2023-06-10 17:13:55,144] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1300  0.01s             1           0  0.10s           2023-06-10T17:13:25
+================================================================================
+[2023-06-10 17:14:25,405] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1328  0.00s             1           0  0.09s           2023-06-10T17:13:55
+================================================================================
+[2023-06-10 17:14:45,537] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-10 17:14:45,572] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-10 17:14:55,685] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1356  0.00s             1           0  0.09s           2023-06-10T17:14:25
+================================================================================
+[2023-06-10 17:15:25,931] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1375  0.01s             1           0  0.09s           2023-06-10T17:14:55
+================================================================================
+[2023-06-10 17:15:56,138] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1403  0.01s             1           0  0.11s           2023-06-10T17:15:26
+================================================================================
+[2023-06-10 17:16:26,426] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1431  0.01s             1           0  0.11s           2023-06-10T17:15:56
+================================================================================
+[2023-06-10 17:16:56,675] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1459  0.01s             1           0  0.10s           2023-06-10T17:16:26
+================================================================================
+[2023-06-10 17:17:26,924] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1488  0.00s             1           0  0.10s           2023-06-10T17:16:56
+================================================================================
+[2023-06-10 17:17:57,114] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1507  0.01s             1           0  0.09s           2023-06-10T17:17:27
+================================================================================
+[2023-06-10 17:18:27,322] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1534  0.00s             1           0  0.10s           2023-06-10T17:17:57
+================================================================================
+[2023-06-10 17:18:57,502] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1562  0.01s             1           0  0.08s           2023-06-10T17:18:27
+================================================================================
+[2023-06-10 17:19:27,790] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1591  0.00s             1           0  0.10s           2023-06-10T17:18:57
+================================================================================
+[2023-06-10 17:19:45,877] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-10 17:19:45,886] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-10 17:19:57,959] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1609  0.00s             1           0  0.07s           2023-06-10T17:19:27
+================================================================================
+[2023-06-10 17:20:28,104] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1637  0.00s             1           0  0.11s           2023-06-10T17:19:58
+================================================================================
+[2023-06-10 17:20:58,281] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1664  0.01s             1           0  0.07s           2023-06-10T17:20:28
+================================================================================
+[2023-06-10 17:21:28,440] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1692  0.00s             1           0  0.11s           2023-06-10T17:20:58
+================================================================================
+[2023-06-10 17:21:58,627] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1719  0.01s             1           0  0.07s           2023-06-10T17:21:28
+================================================================================
+[2023-06-10 17:22:28,806] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1738  0.01s             1           0  0.11s           2023-06-10T17:21:58
+================================================================================
+[2023-06-10 17:22:59,048] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1767  0.01s             1           0  0.11s           2023-06-10T17:22:28
+================================================================================
+[2023-06-10 17:23:29,218] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py   1795  0.01s             1           0  0.11s           2023-06-10T17:22:59
+================================================================================
+[2023-06-11 03:46:22,177] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2023-06-11 03:46:22,181] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2023-06-11 03:46:22,187] {manager.py:483} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-06-11 03:46:22,194] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-11 03:46:22,228] {manager.py:693} INFO - There are 1 files in /opt/airflow/dags
+[2023-06-11 03:46:36,337] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.22s           2023-06-11T03:46:22
+================================================================================
+[2023-06-11 03:47:06,644] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.08s           2023-06-11T03:46:52
+================================================================================
+[2023-06-11 03:47:36,814] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.09s           2023-06-11T03:47:22
+================================================================================
+[2023-06-11 03:48:07,022] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.07s           2023-06-11T03:47:52
+================================================================================
+[2023-06-11 03:48:37,216] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T03:48:23
+================================================================================
+[2023-06-11 03:49:07,475] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T03:48:53
+================================================================================
+[2023-06-11 03:49:37,658] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.07s           2023-06-11T03:49:23
+================================================================================
+[2023-06-11 03:50:07,818] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.12s           2023-06-11T03:49:53
+================================================================================
+[2023-06-11 03:50:38,042] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.09s           2023-06-11T03:50:24
+================================================================================
+[2023-06-11 03:51:08,218] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T03:50:54
+================================================================================
+[2023-06-11 03:51:22,286] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-11 03:51:22,336] {manager.py:693} INFO - There are 2 files in /opt/airflow/dags
+[2023-06-11 03:51:38,457] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.12s           2023-06-11T03:51:24
+/opt/airflow/dags/unscheduled.py                                        1           0  0.66s           2023-06-11T03:51:23
+================================================================================
+[2023-06-11 03:52:08,689] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.12s           2023-06-11T03:51:54
+/opt/airflow/dags/unscheduled.py                                        1           0  0.27s           2023-06-11T03:51:53
+================================================================================
+[2023-06-11 03:52:38,923] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.08s           2023-06-11T03:52:24
+/opt/airflow/dags/unscheduled.py                                        1           0  0.25s           2023-06-11T03:52:24
+================================================================================
+[2023-06-11 03:53:09,184] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.09s           2023-06-11T03:52:55
+/opt/airflow/dags/unscheduled.py                                        1           0  0.26s           2023-06-11T03:52:55
+================================================================================
+[2023-06-11 03:53:39,476] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.09s           2023-06-11T03:53:25
+/opt/airflow/dags/unscheduled.py                                        1           0  0.26s           2023-06-11T03:53:25
+================================================================================
+[2023-06-11 03:54:09,777] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.12s           2023-06-11T03:53:55
+/opt/airflow/dags/unscheduled.py                                        1           0  0.31s           2023-06-11T03:53:55
+================================================================================
+[2023-06-11 03:54:40,020] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.07s           2023-06-11T03:54:25
+/opt/airflow/dags/unscheduled.py                                        1           0  0.23s           2023-06-11T03:54:26
+================================================================================
+[2023-06-11 03:55:10,300] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T03:54:56
+/opt/airflow/dags/unscheduled.py                                        1           0  0.23s           2023-06-11T03:54:56
+================================================================================
+[2023-06-11 03:55:40,799] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T03:55:26
+/opt/airflow/dags/unscheduled.py                                        1           0  0.37s           2023-06-11T03:55:29
+================================================================================
+[2023-06-11 03:56:11,052] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.09s           2023-06-11T03:55:56
+/opt/airflow/dags/unscheduled.py                                        1           0  0.28s           2023-06-11T03:56:00
+================================================================================
+[2023-06-11 03:56:22,307] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-11 03:56:22,324] {manager.py:693} INFO - There are 2 files in /opt/airflow/dags
+[2023-06-11 03:56:41,319] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T03:56:27
+/opt/airflow/dags/unscheduled.py                                        1           0  0.27s           2023-06-11T03:56:30
+================================================================================
+[2023-06-11 03:57:11,541] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.07s           2023-06-11T03:56:57
+/opt/airflow/dags/unscheduled.py                                        1           0  0.29s           2023-06-11T03:57:01
+================================================================================
+[2023-06-11 03:57:41,795] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.10s           2023-06-11T03:57:27
+/opt/airflow/dags/unscheduled.py                                        1           0  0.28s           2023-06-11T03:57:32
+================================================================================
+[2023-06-11 03:58:12,030] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.09s           2023-06-11T03:57:57
+/opt/airflow/dags/unscheduled.py                                        1           0  0.27s           2023-06-11T03:58:03
+================================================================================
+[2023-06-11 03:58:42,318] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T03:58:28
+/opt/airflow/dags/unscheduled.py                                        1           0  0.26s           2023-06-11T03:58:33
+================================================================================
+[2023-06-11 03:59:12,597] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T03:58:58
+/opt/airflow/dags/unscheduled.py                                        1           0  0.25s           2023-06-11T03:59:03
+================================================================================
+[2023-06-11 03:59:42,816] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.09s           2023-06-11T03:59:28
+/opt/airflow/dags/unscheduled.py                                        1           0  0.26s           2023-06-11T03:59:34
+================================================================================
+[2023-06-11 04:00:13,096] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T03:59:59
+/opt/airflow/dags/unscheduled.py                                        1           0  0.24s           2023-06-11T04:00:05
+================================================================================
+[2023-06-11 04:00:43,357] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:00:29
+/opt/airflow/dags/unscheduled.py                                        1           0  0.26s           2023-06-11T04:00:35
+================================================================================
+[2023-06-11 04:01:13,563] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.09s           2023-06-11T04:00:59
+/opt/airflow/dags/unscheduled.py                                        1           0  0.31s           2023-06-11T04:01:06
+================================================================================
+[2023-06-11 04:01:22,613] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-11 04:01:22,651] {manager.py:693} INFO - There are 2 files in /opt/airflow/dags
+[2023-06-11 04:01:43,848] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.07s           2023-06-11T04:01:29
+/opt/airflow/dags/unscheduled.py                                        1           0  0.28s           2023-06-11T04:01:37
+================================================================================
+[2023-06-11 04:02:14,121] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:02:00
+/opt/airflow/dags/unscheduled.py                                        1           0  0.26s           2023-06-11T04:02:08
+================================================================================
+[2023-06-11 04:02:44,405] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:02:30
+/opt/airflow/dags/unscheduled.py                                        1           0  0.28s           2023-06-11T04:02:38
+================================================================================
+[2023-06-11 04:03:14,659] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.10s           2023-06-11T04:03:00
+/opt/airflow/dags/unscheduled.py                                        1           0  0.25s           2023-06-11T04:03:08
+================================================================================
+[2023-06-11 04:03:44,949] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:03:30
+/opt/airflow/dags/unscheduled.py                                        1           0  0.33s           2023-06-11T04:03:39
+================================================================================
+[2023-06-11 04:04:15,162] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.07s           2023-06-11T04:04:01
+/opt/airflow/dags/unscheduled.py                                        1           0  0.27s           2023-06-11T04:04:10
+================================================================================
+[2023-06-11 04:04:45,384] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.06s           2023-06-11T04:04:31
+/opt/airflow/dags/unscheduled.py                                        1           0  0.28s           2023-06-11T04:04:40
+================================================================================
+[2023-06-11 04:05:15,641] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.10s           2023-06-11T04:05:01
+/opt/airflow/dags/unscheduled.py                                        1           0  0.30s           2023-06-11T04:05:11
+================================================================================
+[2023-06-11 04:05:45,909] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.12s           2023-06-11T04:05:31
+/opt/airflow/dags/unscheduled.py                                        1           0  0.36s           2023-06-11T04:05:42
+================================================================================
+[2023-06-11 04:06:16,170] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:06:02
+/opt/airflow/dags/unscheduled.py                                        1           0  0.26s           2023-06-11T04:06:13
+================================================================================
+[2023-06-11 04:06:23,214] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-11 04:06:23,248] {manager.py:693} INFO - There are 2 files in /opt/airflow/dags
+[2023-06-11 04:06:46,479] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.08s           2023-06-11T04:06:32
+/opt/airflow/dags/unscheduled.py                                        1           0  0.33s           2023-06-11T04:06:43
+================================================================================
+[2023-06-11 04:07:16,744] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.09s           2023-06-11T04:07:02
+/opt/airflow/dags/unscheduled.py                                        1           0  0.23s           2023-06-11T04:07:13
+================================================================================
+[2023-06-11 04:07:47,008] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.08s           2023-06-11T04:07:32
+/opt/airflow/dags/unscheduled.py                                        1           0  0.28s           2023-06-11T04:07:44
+================================================================================
+[2023-06-11 04:08:17,276] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.12s           2023-06-11T04:08:03
+/opt/airflow/dags/unscheduled.py                                        1           0  0.28s           2023-06-11T04:08:15
+================================================================================
+[2023-06-11 04:08:47,555] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.12s           2023-06-11T04:08:33
+/opt/airflow/dags/unscheduled.py                                        1           0  0.28s           2023-06-11T04:08:45
+================================================================================
+[2023-06-11 04:09:17,798] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.08s           2023-06-11T04:09:03
+/opt/airflow/dags/unscheduled.py                                        1           0  0.23s           2023-06-11T04:09:16
+================================================================================
+[2023-06-11 04:09:48,081] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:09:34
+/opt/airflow/dags/unscheduled.py                                        1           0  0.23s           2023-06-11T04:09:46
+================================================================================
+[2023-06-11 04:10:18,346] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:10:04
+/opt/airflow/dags/unscheduled.py                                        1           0  0.30s           2023-06-11T04:10:16
+================================================================================
+[2023-06-11 04:10:48,608] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.12s           2023-06-11T04:10:34
+/opt/airflow/dags/unscheduled.py                                        1           0  0.31s           2023-06-11T04:10:47
+================================================================================
+[2023-06-11 04:11:18,873] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.10s           2023-06-11T04:11:04
+/opt/airflow/dags/unscheduled.py                                        1           0  0.27s           2023-06-11T04:11:18
+================================================================================
+[2023-06-11 04:11:23,906] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-11 04:11:23,952] {manager.py:693} INFO - There are 2 files in /opt/airflow/dags
+[2023-06-11 04:11:49,249] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.13s           2023-06-11T04:11:35
+/opt/airflow/dags/unscheduled.py                                        1           0  0.27s           2023-06-11T04:11:48
+================================================================================
+[2023-06-11 04:12:19,540] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:12:05
+/opt/airflow/dags/unscheduled.py                                        1           0  0.28s           2023-06-11T04:12:18
+================================================================================
+[2023-06-11 04:12:49,726] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:12:35
+/opt/airflow/dags/unscheduled.py                1493  0.01s             1           0  0.28s           2023-06-11T04:12:18
+================================================================================
+[2023-06-11 04:13:20,004] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:13:06
+/opt/airflow/dags/unscheduled.py                1524  0.01s             1           0  0.27s           2023-06-11T04:12:49
+================================================================================
+[2023-06-11 04:13:50,265] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:13:36
+/opt/airflow/dags/unscheduled.py                1554  0.00s             1           0  0.26s           2023-06-11T04:13:20
+================================================================================
+[2023-06-11 04:14:20,488] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:14:06
+/opt/airflow/dags/unscheduled.py                                        1           0  0.25s           2023-06-11T04:13:50
+================================================================================
+[2023-06-11 04:14:50,760] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.10s           2023-06-11T04:14:36
+/opt/airflow/dags/unscheduled.py                                        1           0  0.24s           2023-06-11T04:14:20
+================================================================================
+[2023-06-11 04:15:20,997] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.10s           2023-06-11T04:15:07
+/opt/airflow/dags/unscheduled.py                                        1           0  0.34s           2023-06-11T04:14:51
+================================================================================
+[2023-06-11 04:15:51,268] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:15:37
+/opt/airflow/dags/unscheduled.py                                        1           0  0.27s           2023-06-11T04:15:22
+================================================================================
+[2023-06-11 04:16:21,507] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.07s           2023-06-11T04:16:07
+/opt/airflow/dags/unscheduled.py                                        1           0  0.28s           2023-06-11T04:15:52
+================================================================================
+[2023-06-11 04:16:24,564] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-11 04:16:24,602] {manager.py:693} INFO - There are 2 files in /opt/airflow/dags
+[2023-06-11 04:16:51,781] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.08s           2023-06-11T04:16:37
+/opt/airflow/dags/unscheduled.py                                        1           0  0.23s           2023-06-11T04:16:23
+================================================================================
+[2023-06-11 04:17:21,993] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.12s           2023-06-11T04:17:08
+/opt/airflow/dags/unscheduled.py                                        1           0  0.29s           2023-06-11T04:16:54
+================================================================================
+[2023-06-11 04:17:52,246] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.16s           2023-06-11T04:17:38
+/opt/airflow/dags/unscheduled.py                                        1           0  0.26s           2023-06-11T04:17:24
+================================================================================
+[2023-06-11 04:18:22,588] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.07s           2023-06-11T04:18:08
+/opt/airflow/dags/unscheduled.py                                        1           0  0.33s           2023-06-11T04:17:54
+================================================================================
+[2023-06-11 04:18:52,770] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:18:38
+/opt/airflow/dags/unscheduled.py                                        1           0  0.27s           2023-06-11T04:18:25
+================================================================================
+[2023-06-11 04:19:23,026] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.09s           2023-06-11T04:19:09
+/opt/airflow/dags/unscheduled.py                                        1           0  0.27s           2023-06-11T04:18:57
+================================================================================
+[2023-06-11 04:19:53,277] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.12s           2023-06-11T04:19:39
+/opt/airflow/dags/unscheduled.py                                        1           0  0.26s           2023-06-11T04:19:27
+================================================================================
+[2023-06-11 04:20:23,531] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.10s           2023-06-11T04:20:09
+/opt/airflow/dags/unscheduled.py                                        1           0  0.28s           2023-06-11T04:19:57
+================================================================================
+[2023-06-11 04:20:53,744] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.08s           2023-06-11T04:20:39
+/opt/airflow/dags/unscheduled.py                                        1           0  0.26s           2023-06-11T04:20:28
+================================================================================
+[2023-06-11 04:21:23,962] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:21:09
+/opt/airflow/dags/unscheduled.py                                        1           0  0.23s           2023-06-11T04:20:59
+================================================================================
+[2023-06-11 04:21:24,971] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-11 04:21:24,996] {manager.py:693} INFO - There are 2 files in /opt/airflow/dags
+[2023-06-11 04:21:54,197] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.08s           2023-06-11T04:21:40
+/opt/airflow/dags/unscheduled.py                                        1           0  0.26s           2023-06-11T04:21:29
+================================================================================
+[2023-06-11 04:22:24,407] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:22:10
+/opt/airflow/dags/unscheduled.py                                        1           0  0.27s           2023-06-11T04:22:00
+================================================================================
+[2023-06-11 04:22:54,616] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.07s           2023-06-11T04:22:40
+/opt/airflow/dags/unscheduled.py                                        1           0  0.23s           2023-06-11T04:22:31
+================================================================================
+[2023-06-11 04:23:24,818] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:23:10
+/opt/airflow/dags/unscheduled.py                                        1           0  0.28s           2023-06-11T04:23:01
+================================================================================
+[2023-06-11 04:23:55,034] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.12s           2023-06-11T04:23:41
+/opt/airflow/dags/unscheduled.py                                        1           0  0.24s           2023-06-11T04:23:33
+================================================================================
+[2023-06-11 04:24:25,245] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.10s           2023-06-11T04:24:11
+/opt/airflow/dags/unscheduled.py                                        1           0  0.24s           2023-06-11T04:24:03
+================================================================================
+[2023-06-11 04:24:55,496] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.09s           2023-06-11T04:24:41
+/opt/airflow/dags/unscheduled.py                                        1           0  0.31s           2023-06-11T04:24:34
+================================================================================
+[2023-06-11 04:25:25,665] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.07s           2023-06-11T04:25:11
+/opt/airflow/dags/unscheduled.py                                        1           0  0.24s           2023-06-11T04:25:05
+================================================================================
+[2023-06-11 04:25:55,823] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.08s           2023-06-11T04:25:41
+/opt/airflow/dags/unscheduled.py                                        1           0  0.25s           2023-06-11T04:25:36
+================================================================================
+[2023-06-11 04:26:24,981] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-11 04:26:24,997] {manager.py:693} INFO - There are 2 files in /opt/airflow/dags
+[2023-06-11 04:26:26,012] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.09s           2023-06-11T04:26:12
+/opt/airflow/dags/unscheduled.py                                        1           0  0.25s           2023-06-11T04:26:08
+================================================================================
+[2023-06-11 04:26:56,230] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:26:42
+/opt/airflow/dags/unscheduled.py                                        1           0  0.23s           2023-06-11T04:26:39
+================================================================================
+[2023-06-11 04:27:26,478] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.09s           2023-06-11T04:27:12
+/opt/airflow/dags/unscheduled.py                                        1           0  0.29s           2023-06-11T04:27:09
+================================================================================
+[2023-06-11 04:27:56,677] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:27:42
+/opt/airflow/dags/unscheduled.py                                        1           0  0.30s           2023-06-11T04:27:40
+================================================================================
+[2023-06-11 04:28:26,854] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.10s           2023-06-11T04:28:12
+/opt/airflow/dags/unscheduled.py                                        1           0  0.24s           2023-06-11T04:28:11
+================================================================================
+[2023-06-11 04:28:57,100] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.12s           2023-06-11T04:28:43
+/opt/airflow/dags/unscheduled.py                                        1           0  0.26s           2023-06-11T04:28:42
+================================================================================
+[2023-06-11 04:29:27,360] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.10s           2023-06-11T04:29:13
+/opt/airflow/dags/unscheduled.py                                        1           0  0.30s           2023-06-11T04:29:13
+================================================================================
+[2023-06-11 04:29:57,571] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.09s           2023-06-11T04:29:43
+/opt/airflow/dags/unscheduled.py                                        1           0  0.23s           2023-06-11T04:29:43
+================================================================================
+[2023-06-11 04:30:27,754] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.07s           2023-06-11T04:30:13
+/opt/airflow/dags/unscheduled.py                                        1           0  0.25s           2023-06-11T04:30:14
+================================================================================
+[2023-06-11 04:30:58,008] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.09s           2023-06-11T04:30:43
+/opt/airflow/dags/unscheduled.py                                        1           0  0.28s           2023-06-11T04:30:45
+================================================================================
+[2023-06-11 04:31:25,181] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-11 04:31:25,200] {manager.py:693} INFO - There are 2 files in /opt/airflow/dags
+[2023-06-11 04:31:28,221] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.07s           2023-06-11T04:31:14
+/opt/airflow/dags/unscheduled.py                                        1           0  0.29s           2023-06-11T04:31:16
+================================================================================
+[2023-06-11 04:31:58,443] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.08s           2023-06-11T04:31:44
+/opt/airflow/dags/unscheduled.py                                        1           0  0.24s           2023-06-11T04:31:46
+================================================================================
+[2023-06-11 04:32:28,667] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.07s           2023-06-11T04:32:14
+/opt/airflow/dags/unscheduled.py                                        1           0  0.24s           2023-06-11T04:32:17
+================================================================================
+[2023-06-11 04:32:58,911] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.10s           2023-06-11T04:32:44
+/opt/airflow/dags/unscheduled.py                                        1           0  0.27s           2023-06-11T04:32:48
+================================================================================
+[2023-06-11 04:33:29,117] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.07s           2023-06-11T04:33:15
+/opt/airflow/dags/unscheduled.py                                        1           0  0.27s           2023-06-11T04:33:19
+================================================================================
+[2023-06-11 04:33:59,352] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.08s           2023-06-11T04:33:45
+/opt/airflow/dags/unscheduled.py                                        1           0  0.29s           2023-06-11T04:33:49
+================================================================================
+[2023-06-11 04:34:29,539] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.07s           2023-06-11T04:34:15
+/opt/airflow/dags/unscheduled.py                                        1           0  0.27s           2023-06-11T04:34:20
+================================================================================
+[2023-06-11 04:34:59,773] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.09s           2023-06-11T04:34:45
+/opt/airflow/dags/unscheduled.py                                        1           0  0.25s           2023-06-11T04:34:50
+================================================================================
+[2023-06-11 04:35:29,973] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.08s           2023-06-11T04:35:15
+/opt/airflow/dags/unscheduled.py                                        1           0  0.23s           2023-06-11T04:35:22
+================================================================================
+[2023-06-11 04:36:00,198] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.09s           2023-06-11T04:35:46
+/opt/airflow/dags/unscheduled.py                                        1           0  0.28s           2023-06-11T04:35:52
+================================================================================
+[2023-06-11 04:36:25,397] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-11 04:36:25,440] {manager.py:693} INFO - There are 2 files in /opt/airflow/dags
+[2023-06-11 04:36:30,481] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.07s           2023-06-11T04:36:16
+/opt/airflow/dags/unscheduled.py                                        1           0  0.39s           2023-06-11T04:36:23
+================================================================================
+[2023-06-11 04:37:00,758] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:36:46
+/opt/airflow/dags/unscheduled.py                                        1           0  0.29s           2023-06-11T04:36:47
+================================================================================
+[2023-06-11 04:37:31,002] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.08s           2023-06-11T04:37:16
+/opt/airflow/dags/unscheduled.py                                        1           0  0.28s           2023-06-11T04:37:18
+================================================================================
+[2023-06-11 04:38:01,411] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.10s           2023-06-11T04:37:47
+/opt/airflow/dags/unscheduled.py                                        1           0  0.27s           2023-06-11T04:37:40
+================================================================================
+[2023-06-11 04:38:31,627] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.09s           2023-06-11T04:38:17
+/opt/airflow/dags/unscheduled.py                                        1           0  0.27s           2023-06-11T04:38:10
+================================================================================
+[2023-06-11 04:39:01,843] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:38:47
+/opt/airflow/dags/unscheduled.py                                        1           0  0.26s           2023-06-11T04:38:41
+================================================================================
+[2023-06-11 04:39:32,087] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.12s           2023-06-11T04:39:18
+/opt/airflow/dags/unscheduled.py                                        1           0  0.31s           2023-06-11T04:39:12
+================================================================================
+[2023-06-11 04:40:02,479] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.08s           2023-06-11T04:39:48
+/opt/airflow/dags/unscheduled.py                                        1           0  0.36s           2023-06-11T04:39:44
+================================================================================
+[2023-06-11 04:40:32,658] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.08s           2023-06-11T04:40:18
+/opt/airflow/dags/unscheduled.py                                        1           0  0.23s           2023-06-11T04:40:15
+================================================================================
+[2023-06-11 04:41:02,833] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.10s           2023-06-11T04:40:48
+/opt/airflow/dags/unscheduled.py                                        1           0  0.30s           2023-06-11T04:40:47
+================================================================================
+[2023-06-11 04:41:26,011] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-11 04:41:26,031] {manager.py:693} INFO - There are 2 files in /opt/airflow/dags
+[2023-06-11 04:41:33,076] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.09s           2023-06-11T04:41:19
+/opt/airflow/dags/unscheduled.py                                        1           0  0.24s           2023-06-11T04:41:18
+================================================================================
+[2023-06-11 04:42:03,247] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.07s           2023-06-11T04:41:49
+/opt/airflow/dags/unscheduled.py                                        1           0  0.31s           2023-06-11T04:41:48
+================================================================================
+[2023-06-11 04:42:33,559] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.18s           2023-06-11T04:42:19
+/opt/airflow/dags/unscheduled.py                                        1           0  0.36s           2023-06-11T04:42:19
+================================================================================
+[2023-06-11 04:43:03,748] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.10s           2023-06-11T04:42:49
+/opt/airflow/dags/unscheduled.py                                        1           0  0.23s           2023-06-11T04:42:49
+================================================================================
+[2023-06-11 04:43:34,012] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.10s           2023-06-11T04:43:19
+/opt/airflow/dags/unscheduled.py                                        1           0  0.23s           2023-06-11T04:43:20
+================================================================================
+[2023-06-11 04:44:04,259] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.07s           2023-06-11T04:43:50
+/opt/airflow/dags/unscheduled.py                                        1           0  0.23s           2023-06-11T04:43:50
+================================================================================
+[2023-06-11 04:44:34,497] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.09s           2023-06-11T04:44:20
+/opt/airflow/dags/unscheduled.py                                        1           0  0.25s           2023-06-11T04:44:20
+================================================================================
+[2023-06-11 04:45:04,757] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.10s           2023-06-11T04:44:50
+/opt/airflow/dags/unscheduled.py                                        1           0  0.26s           2023-06-11T04:44:51
+================================================================================
+[2023-06-11 04:45:35,043] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.13s           2023-06-11T04:45:20
+/opt/airflow/dags/unscheduled.py                                        1           0  0.28s           2023-06-11T04:45:22
+================================================================================
+[2023-06-11 04:46:05,313] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.11s           2023-06-11T04:45:51
+/opt/airflow/dags/unscheduled.py                                        1           0  0.29s           2023-06-11T04:45:52
+================================================================================
+[2023-06-11 04:46:26,490] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-11 04:46:26,534] {manager.py:693} INFO - There are 2 files in /opt/airflow/dags
+[2023-06-11 04:46:35,613] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.07s           2023-06-11T04:46:21
+/opt/airflow/dags/unscheduled.py                                        1           0  0.26s           2023-06-11T04:46:23
+================================================================================
+[2023-06-11 04:47:05,829] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.10s           2023-06-11T04:46:51
+/opt/airflow/dags/unscheduled.py                                        1           0  0.26s           2023-06-11T04:46:53
+================================================================================
+[2023-06-11 04:47:36,061] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.10s           2023-06-11T04:47:21
+/opt/airflow/dags/unscheduled.py                                        1           0  0.26s           2023-06-11T04:47:24
+================================================================================

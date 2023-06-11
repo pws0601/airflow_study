@@ -1,0 +1,795 @@
+[2023-06-11 03:51:22,366] {processor.py:153} INFO - Started process (PID=305) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:51:22,367] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 03:51:22,368] {logging_mixin.py:115} INFO - [2023-06-11 03:51:22,368] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:51:22,921] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:51:22,960] {logging_mixin.py:115} INFO - [2023-06-11 03:51:22,960] {manager.py:508} INFO - Created Permission View: can edit on DAG:01_unscheduled
+[2023-06-11 03:51:22,967] {logging_mixin.py:115} INFO - [2023-06-11 03:51:22,967] {manager.py:508} INFO - Created Permission View: can delete on DAG:01_unscheduled
+[2023-06-11 03:51:22,971] {logging_mixin.py:115} INFO - [2023-06-11 03:51:22,971] {manager.py:508} INFO - Created Permission View: can read on DAG:01_unscheduled
+[2023-06-11 03:51:22,972] {logging_mixin.py:115} INFO - [2023-06-11 03:51:22,972] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 03:51:22,978] {logging_mixin.py:115} INFO - [2023-06-11 03:51:22,978] {dag.py:2439} INFO - Creating ORM DAG for 01_unscheduled
+[2023-06-11 03:51:22,985] {logging_mixin.py:115} INFO - [2023-06-11 03:51:22,985] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 03:51:22,995] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.632 seconds
+[2023-06-11 03:51:53,548] {processor.py:153} INFO - Started process (PID=336) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:51:53,550] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 03:51:53,551] {logging_mixin.py:115} INFO - [2023-06-11 03:51:53,551] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:51:53,754] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:51:53,771] {logging_mixin.py:115} INFO - [2023-06-11 03:51:53,770] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 03:51:53,784] {logging_mixin.py:115} INFO - [2023-06-11 03:51:53,784] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 03:51:53,792] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.247 seconds
+[2023-06-11 03:52:23,863] {processor.py:153} INFO - Started process (PID=357) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:52:23,865] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 03:52:23,867] {logging_mixin.py:115} INFO - [2023-06-11 03:52:23,867] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:52:24,049] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:52:24,062] {logging_mixin.py:115} INFO - [2023-06-11 03:52:24,061] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 03:52:24,072] {logging_mixin.py:115} INFO - [2023-06-11 03:52:24,072] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 03:52:24,079] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.219 seconds
+[2023-06-11 03:52:55,041] {processor.py:153} INFO - Started process (PID=389) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:52:55,043] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 03:52:55,045] {logging_mixin.py:115} INFO - [2023-06-11 03:52:55,045] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:52:55,232] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:52:55,246] {logging_mixin.py:115} INFO - [2023-06-11 03:52:55,246] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 03:52:55,258] {logging_mixin.py:115} INFO - [2023-06-11 03:52:55,258] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 03:52:55,264] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.226 seconds
+[2023-06-11 03:53:25,320] {processor.py:153} INFO - Started process (PID=419) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:53:25,323] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 03:53:25,325] {logging_mixin.py:115} INFO - [2023-06-11 03:53:25,325] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:53:25,515] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:53:25,528] {logging_mixin.py:115} INFO - [2023-06-11 03:53:25,528] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 03:53:25,538] {logging_mixin.py:115} INFO - [2023-06-11 03:53:25,538] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 03:53:25,544] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.231 seconds
+[2023-06-11 03:53:55,617] {processor.py:153} INFO - Started process (PID=448) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:53:55,621] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 03:53:55,624] {logging_mixin.py:115} INFO - [2023-06-11 03:53:55,624] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:53:55,848] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:53:55,861] {logging_mixin.py:115} INFO - [2023-06-11 03:53:55,861] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 03:53:55,872] {logging_mixin.py:115} INFO - [2023-06-11 03:53:55,872] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 03:53:55,879] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.269 seconds
+[2023-06-11 03:54:25,963] {processor.py:153} INFO - Started process (PID=479) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:54:25,965] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 03:54:25,966] {logging_mixin.py:115} INFO - [2023-06-11 03:54:25,966] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:54:26,138] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:54:26,151] {logging_mixin.py:115} INFO - [2023-06-11 03:54:26,150] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 03:54:26,162] {logging_mixin.py:115} INFO - [2023-06-11 03:54:26,162] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 03:54:26,168] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.207 seconds
+[2023-06-11 03:54:56,234] {processor.py:153} INFO - Started process (PID=500) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:54:56,236] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 03:54:56,237] {logging_mixin.py:115} INFO - [2023-06-11 03:54:56,237] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:54:56,407] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:54:56,420] {logging_mixin.py:115} INFO - [2023-06-11 03:54:56,419] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 03:54:56,430] {logging_mixin.py:115} INFO - [2023-06-11 03:54:56,430] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 03:54:56,437] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.204 seconds
+[2023-06-11 03:55:26,534] {processor.py:153} INFO - Started process (PID=531) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:55:26,536] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 03:55:26,537] {logging_mixin.py:115} INFO - [2023-06-11 03:55:26,537] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:55:26,705] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:55:26,718] {logging_mixin.py:115} INFO - [2023-06-11 03:55:26,718] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 03:55:26,728] {logging_mixin.py:115} INFO - [2023-06-11 03:55:26,728] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 03:55:26,734] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.203 seconds
+[2023-06-11 03:55:29,585] {processor.py:153} INFO - Started process (PID=533) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:55:29,589] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 03:55:29,593] {logging_mixin.py:115} INFO - [2023-06-11 03:55:29,593] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:55:29,830] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:55:29,866] {logging_mixin.py:115} INFO - [2023-06-11 03:55:29,866] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 03:55:29,881] {logging_mixin.py:115} INFO - [2023-06-11 03:55:29,881] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 03:55:29,895] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.316 seconds
+[2023-06-11 03:55:59,963] {processor.py:153} INFO - Started process (PID=563) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:55:59,969] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 03:55:59,971] {logging_mixin.py:115} INFO - [2023-06-11 03:55:59,971] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:56:00,163] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:56:00,177] {logging_mixin.py:115} INFO - [2023-06-11 03:56:00,176] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 03:56:00,188] {logging_mixin.py:115} INFO - [2023-06-11 03:56:00,188] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 03:56:00,194] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.236 seconds
+[2023-06-11 03:56:30,293] {processor.py:153} INFO - Started process (PID=591) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:56:30,296] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 03:56:30,299] {logging_mixin.py:115} INFO - [2023-06-11 03:56:30,299] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:56:30,488] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:56:30,502] {logging_mixin.py:115} INFO - [2023-06-11 03:56:30,502] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 03:56:30,512] {logging_mixin.py:115} INFO - [2023-06-11 03:56:30,512] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 03:56:30,517] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.228 seconds
+[2023-06-11 03:57:01,446] {processor.py:153} INFO - Started process (PID=621) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:57:01,449] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 03:57:01,451] {logging_mixin.py:115} INFO - [2023-06-11 03:57:01,451] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:57:01,666] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:57:01,680] {logging_mixin.py:115} INFO - [2023-06-11 03:57:01,680] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 03:57:01,690] {logging_mixin.py:115} INFO - [2023-06-11 03:57:01,690] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 03:57:01,695] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.254 seconds
+[2023-06-11 03:57:31,779] {processor.py:153} INFO - Started process (PID=651) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:57:31,784] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 03:57:31,788] {logging_mixin.py:115} INFO - [2023-06-11 03:57:31,788] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:57:31,981] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:57:31,993] {logging_mixin.py:115} INFO - [2023-06-11 03:57:31,993] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 03:57:32,003] {logging_mixin.py:115} INFO - [2023-06-11 03:57:32,003] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 03:57:32,009] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.234 seconds
+[2023-06-11 03:58:02,913] {processor.py:153} INFO - Started process (PID=681) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:58:02,914] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 03:58:02,916] {logging_mixin.py:115} INFO - [2023-06-11 03:58:02,916] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:58:03,119] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:58:03,134] {logging_mixin.py:115} INFO - [2023-06-11 03:58:03,134] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 03:58:03,145] {logging_mixin.py:115} INFO - [2023-06-11 03:58:03,145] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 03:58:03,151] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.241 seconds
+[2023-06-11 03:58:33,291] {processor.py:153} INFO - Started process (PID=702) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:58:33,293] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 03:58:33,296] {logging_mixin.py:115} INFO - [2023-06-11 03:58:33,295] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:58:33,482] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:58:33,494] {logging_mixin.py:115} INFO - [2023-06-11 03:58:33,494] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 03:58:33,504] {logging_mixin.py:115} INFO - [2023-06-11 03:58:33,504] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 03:58:33,510] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.224 seconds
+[2023-06-11 03:59:03,568] {processor.py:153} INFO - Started process (PID=733) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:59:03,570] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 03:59:03,572] {logging_mixin.py:115} INFO - [2023-06-11 03:59:03,572] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:59:03,748] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:59:03,762] {logging_mixin.py:115} INFO - [2023-06-11 03:59:03,762] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 03:59:03,774] {logging_mixin.py:115} INFO - [2023-06-11 03:59:03,773] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 03:59:03,780] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.215 seconds
+[2023-06-11 03:59:34,730] {processor.py:153} INFO - Started process (PID=763) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:59:34,732] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 03:59:34,734] {logging_mixin.py:115} INFO - [2023-06-11 03:59:34,734] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:59:34,917] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 03:59:34,929] {logging_mixin.py:115} INFO - [2023-06-11 03:59:34,929] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 03:59:34,940] {logging_mixin.py:115} INFO - [2023-06-11 03:59:34,940] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 03:59:34,945] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.220 seconds
+[2023-06-11 04:00:05,067] {processor.py:153} INFO - Started process (PID=793) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:00:05,069] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:00:05,071] {logging_mixin.py:115} INFO - [2023-06-11 04:00:05,071] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:00:05,245] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:00:05,259] {logging_mixin.py:115} INFO - [2023-06-11 04:00:05,259] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:00:05,270] {logging_mixin.py:115} INFO - [2023-06-11 04:00:05,270] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:00:05,276] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.212 seconds
+[2023-06-11 04:00:35,334] {processor.py:153} INFO - Started process (PID=822) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:00:35,336] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:00:35,338] {logging_mixin.py:115} INFO - [2023-06-11 04:00:35,338] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:00:35,540] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:00:35,553] {logging_mixin.py:115} INFO - [2023-06-11 04:00:35,553] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:00:35,564] {logging_mixin.py:115} INFO - [2023-06-11 04:00:35,564] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:00:35,569] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.238 seconds
+[2023-06-11 04:01:06,471] {processor.py:153} INFO - Started process (PID=852) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:01:06,473] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:01:06,475] {logging_mixin.py:115} INFO - [2023-06-11 04:01:06,475] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:01:06,696] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:01:06,716] {logging_mixin.py:115} INFO - [2023-06-11 04:01:06,716] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:01:06,732] {logging_mixin.py:115} INFO - [2023-06-11 04:01:06,732] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:01:06,742] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.274 seconds
+[2023-06-11 04:01:36,836] {processor.py:153} INFO - Started process (PID=872) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:01:36,840] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:01:36,842] {logging_mixin.py:115} INFO - [2023-06-11 04:01:36,842] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:01:37,047] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:01:37,061] {logging_mixin.py:115} INFO - [2023-06-11 04:01:37,061] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:01:37,072] {logging_mixin.py:115} INFO - [2023-06-11 04:01:37,072] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:01:37,079] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.247 seconds
+[2023-06-11 04:02:08,044] {processor.py:153} INFO - Started process (PID=902) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:02:08,046] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:02:08,048] {logging_mixin.py:115} INFO - [2023-06-11 04:02:08,048] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:02:08,232] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:02:08,245] {logging_mixin.py:115} INFO - [2023-06-11 04:02:08,245] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:02:08,256] {logging_mixin.py:115} INFO - [2023-06-11 04:02:08,255] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:02:08,261] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.222 seconds
+[2023-06-11 04:02:38,331] {processor.py:153} INFO - Started process (PID=932) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:02:38,336] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:02:38,339] {logging_mixin.py:115} INFO - [2023-06-11 04:02:38,339] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:02:38,528] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:02:38,542] {logging_mixin.py:115} INFO - [2023-06-11 04:02:38,541] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:02:38,551] {logging_mixin.py:115} INFO - [2023-06-11 04:02:38,551] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:02:38,557] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.231 seconds
+[2023-06-11 04:03:08,643] {processor.py:153} INFO - Started process (PID=962) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:03:08,645] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:03:08,647] {logging_mixin.py:115} INFO - [2023-06-11 04:03:08,646] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:03:08,832] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:03:08,845] {logging_mixin.py:115} INFO - [2023-06-11 04:03:08,845] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:03:08,855] {logging_mixin.py:115} INFO - [2023-06-11 04:03:08,855] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:03:08,860] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.220 seconds
+[2023-06-11 04:03:38,937] {processor.py:153} INFO - Started process (PID=992) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:03:38,938] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:03:38,940] {logging_mixin.py:115} INFO - [2023-06-11 04:03:38,940] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:03:39,205] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:03:39,222] {logging_mixin.py:115} INFO - [2023-06-11 04:03:39,222] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:03:39,233] {logging_mixin.py:115} INFO - [2023-06-11 04:03:39,233] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:03:39,240] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.305 seconds
+[2023-06-11 04:04:10,114] {processor.py:153} INFO - Started process (PID=1013) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:04:10,117] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:04:10,120] {logging_mixin.py:115} INFO - [2023-06-11 04:04:10,120] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:04:10,307] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:04:10,322] {logging_mixin.py:115} INFO - [2023-06-11 04:04:10,321] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:04:10,332] {logging_mixin.py:115} INFO - [2023-06-11 04:04:10,332] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:04:10,337] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.229 seconds
+[2023-06-11 04:04:40,395] {processor.py:153} INFO - Started process (PID=1043) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:04:40,397] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:04:40,399] {logging_mixin.py:115} INFO - [2023-06-11 04:04:40,399] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:04:40,588] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:04:40,602] {logging_mixin.py:115} INFO - [2023-06-11 04:04:40,602] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:04:40,612] {logging_mixin.py:115} INFO - [2023-06-11 04:04:40,612] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:04:40,618] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.228 seconds
+[2023-06-11 04:05:11,562] {processor.py:153} INFO - Started process (PID=1073) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:05:11,563] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:05:11,565] {logging_mixin.py:115} INFO - [2023-06-11 04:05:11,565] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:05:11,788] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:05:11,804] {logging_mixin.py:115} INFO - [2023-06-11 04:05:11,804] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:05:11,814] {logging_mixin.py:115} INFO - [2023-06-11 04:05:11,814] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:05:11,820] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.262 seconds
+[2023-06-11 04:05:41,911] {processor.py:153} INFO - Started process (PID=1103) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:05:41,914] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:05:41,916] {logging_mixin.py:115} INFO - [2023-06-11 04:05:41,916] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:05:42,160] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:05:42,182] {logging_mixin.py:115} INFO - [2023-06-11 04:05:42,181] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:05:42,205] {logging_mixin.py:115} INFO - [2023-06-11 04:05:42,205] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:05:42,216] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.310 seconds
+[2023-06-11 04:06:13,075] {processor.py:153} INFO - Started process (PID=1133) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:06:13,077] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:06:13,079] {logging_mixin.py:115} INFO - [2023-06-11 04:06:13,078] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:06:13,264] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:06:13,282] {logging_mixin.py:115} INFO - [2023-06-11 04:06:13,282] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:06:13,295] {logging_mixin.py:115} INFO - [2023-06-11 04:06:13,295] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:06:13,301] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.229 seconds
+[2023-06-11 04:06:43,399] {processor.py:153} INFO - Started process (PID=1163) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:06:43,401] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:06:43,403] {logging_mixin.py:115} INFO - [2023-06-11 04:06:43,403] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:06:43,652] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:06:43,675] {logging_mixin.py:115} INFO - [2023-06-11 04:06:43,675] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:06:43,688] {logging_mixin.py:115} INFO - [2023-06-11 04:06:43,688] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:06:43,695] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.299 seconds
+[2023-06-11 04:07:13,743] {processor.py:153} INFO - Started process (PID=1185) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:07:13,744] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:07:13,745] {logging_mixin.py:115} INFO - [2023-06-11 04:07:13,745] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:07:13,915] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:07:13,929] {logging_mixin.py:115} INFO - [2023-06-11 04:07:13,929] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:07:13,940] {logging_mixin.py:115} INFO - [2023-06-11 04:07:13,940] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:07:13,945] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.206 seconds
+[2023-06-11 04:07:44,014] {processor.py:153} INFO - Started process (PID=1215) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:07:44,017] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:07:44,019] {logging_mixin.py:115} INFO - [2023-06-11 04:07:44,019] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:07:44,224] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:07:44,238] {logging_mixin.py:115} INFO - [2023-06-11 04:07:44,238] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:07:44,248] {logging_mixin.py:115} INFO - [2023-06-11 04:07:44,248] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:07:44,254] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.244 seconds
+[2023-06-11 04:08:15,198] {processor.py:153} INFO - Started process (PID=1245) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:08:15,200] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:08:15,205] {logging_mixin.py:115} INFO - [2023-06-11 04:08:15,205] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:08:15,390] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:08:15,402] {logging_mixin.py:115} INFO - [2023-06-11 04:08:15,402] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:08:15,413] {logging_mixin.py:115} INFO - [2023-06-11 04:08:15,412] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:08:15,418] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.227 seconds
+[2023-06-11 04:08:45,486] {processor.py:153} INFO - Started process (PID=1274) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:08:45,488] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:08:45,490] {logging_mixin.py:115} INFO - [2023-06-11 04:08:45,490] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:08:45,678] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:08:45,692] {logging_mixin.py:115} INFO - [2023-06-11 04:08:45,692] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:08:45,703] {logging_mixin.py:115} INFO - [2023-06-11 04:08:45,703] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:08:45,709] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.228 seconds
+[2023-06-11 04:09:15,801] {processor.py:153} INFO - Started process (PID=1304) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:09:15,802] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:09:15,803] {logging_mixin.py:115} INFO - [2023-06-11 04:09:15,803] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:09:15,977] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:09:15,988] {logging_mixin.py:115} INFO - [2023-06-11 04:09:15,988] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:09:15,998] {logging_mixin.py:115} INFO - [2023-06-11 04:09:15,998] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:09:16,004] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.206 seconds
+[2023-06-11 04:09:46,082] {processor.py:153} INFO - Started process (PID=1325) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:09:46,083] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:09:46,084] {logging_mixin.py:115} INFO - [2023-06-11 04:09:46,084] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:09:46,253] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:09:46,265] {logging_mixin.py:115} INFO - [2023-06-11 04:09:46,265] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:09:46,275] {logging_mixin.py:115} INFO - [2023-06-11 04:09:46,275] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:09:46,282] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.202 seconds
+[2023-06-11 04:10:16,359] {processor.py:153} INFO - Started process (PID=1354) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:10:16,361] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:10:16,363] {logging_mixin.py:115} INFO - [2023-06-11 04:10:16,363] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:10:16,574] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:10:16,588] {logging_mixin.py:115} INFO - [2023-06-11 04:10:16,588] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:10:16,598] {logging_mixin.py:115} INFO - [2023-06-11 04:10:16,598] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:10:16,604] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.250 seconds
+[2023-06-11 04:10:47,549] {processor.py:153} INFO - Started process (PID=1384) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:10:47,553] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:10:47,556] {logging_mixin.py:115} INFO - [2023-06-11 04:10:47,556] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:10:47,774] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:10:47,790] {logging_mixin.py:115} INFO - [2023-06-11 04:10:47,789] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:10:47,801] {logging_mixin.py:115} INFO - [2023-06-11 04:10:47,801] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:10:47,807] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.264 seconds
+[2023-06-11 04:11:17,892] {processor.py:153} INFO - Started process (PID=1413) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:11:17,894] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:11:17,896] {logging_mixin.py:115} INFO - [2023-06-11 04:11:17,896] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:11:18,086] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:11:18,099] {logging_mixin.py:115} INFO - [2023-06-11 04:11:18,099] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:11:18,109] {logging_mixin.py:115} INFO - [2023-06-11 04:11:18,109] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:11:18,115] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.228 seconds
+[2023-06-11 04:11:48,266] {processor.py:153} INFO - Started process (PID=1443) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:11:48,269] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:11:48,271] {logging_mixin.py:115} INFO - [2023-06-11 04:11:48,271] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:11:48,458] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:11:48,471] {logging_mixin.py:115} INFO - [2023-06-11 04:11:48,470] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:11:48,480] {logging_mixin.py:115} INFO - [2023-06-11 04:11:48,480] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:11:48,486] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.225 seconds
+[2023-06-11 04:12:18,549] {processor.py:153} INFO - Started process (PID=1472) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:12:18,552] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:12:18,554] {logging_mixin.py:115} INFO - [2023-06-11 04:12:18,554] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:12:18,758] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:12:18,775] {logging_mixin.py:115} INFO - [2023-06-11 04:12:18,775] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:12:18,789] {logging_mixin.py:115} INFO - [2023-06-11 04:12:18,789] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:12:18,797] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.249 seconds
+[2023-06-11 04:12:49,746] {processor.py:153} INFO - Started process (PID=1493) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:12:49,750] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:12:49,752] {logging_mixin.py:115} INFO - [2023-06-11 04:12:49,752] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:12:49,940] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:12:49,953] {logging_mixin.py:115} INFO - [2023-06-11 04:12:49,953] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:12:49,963] {logging_mixin.py:115} INFO - [2023-06-11 04:12:49,963] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:12:49,969] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.229 seconds
+[2023-06-11 04:13:20,024] {processor.py:153} INFO - Started process (PID=1524) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:13:20,027] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:13:20,029] {logging_mixin.py:115} INFO - [2023-06-11 04:13:20,029] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:13:20,211] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:13:20,223] {logging_mixin.py:115} INFO - [2023-06-11 04:13:20,223] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:13:20,232] {logging_mixin.py:115} INFO - [2023-06-11 04:13:20,232] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:13:20,238] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.218 seconds
+[2023-06-11 04:13:50,282] {processor.py:153} INFO - Started process (PID=1554) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:13:50,284] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:13:50,285] {logging_mixin.py:115} INFO - [2023-06-11 04:13:50,285] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:13:50,463] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:13:50,476] {logging_mixin.py:115} INFO - [2023-06-11 04:13:50,476] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:13:50,486] {logging_mixin.py:115} INFO - [2023-06-11 04:13:50,486] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:13:50,493] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.215 seconds
+[2023-06-11 04:14:20,600] {processor.py:153} INFO - Started process (PID=1584) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:14:20,602] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:14:20,604] {logging_mixin.py:115} INFO - [2023-06-11 04:14:20,604] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:14:20,780] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:14:20,793] {logging_mixin.py:115} INFO - [2023-06-11 04:14:20,792] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:14:20,803] {logging_mixin.py:115} INFO - [2023-06-11 04:14:20,803] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:14:20,809] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.212 seconds
+[2023-06-11 04:14:50,853] {processor.py:153} INFO - Started process (PID=1614) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:14:50,855] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:14:50,860] {logging_mixin.py:115} INFO - [2023-06-11 04:14:50,860] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:14:51,100] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:14:51,121] {logging_mixin.py:115} INFO - [2023-06-11 04:14:51,120] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:14:51,138] {logging_mixin.py:115} INFO - [2023-06-11 04:14:51,138] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:14:51,151] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.301 seconds
+[2023-06-11 04:15:22,050] {processor.py:153} INFO - Started process (PID=1635) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:15:22,053] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:15:22,055] {logging_mixin.py:115} INFO - [2023-06-11 04:15:22,055] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:15:22,243] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:15:22,255] {logging_mixin.py:115} INFO - [2023-06-11 04:15:22,255] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:15:22,264] {logging_mixin.py:115} INFO - [2023-06-11 04:15:22,264] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:15:22,271] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.227 seconds
+[2023-06-11 04:15:52,325] {processor.py:153} INFO - Started process (PID=1666) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:15:52,329] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:15:52,331] {logging_mixin.py:115} INFO - [2023-06-11 04:15:52,331] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:15:52,519] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:15:52,532] {logging_mixin.py:115} INFO - [2023-06-11 04:15:52,531] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:15:52,541] {logging_mixin.py:115} INFO - [2023-06-11 04:15:52,541] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:15:52,548] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.229 seconds
+[2023-06-11 04:16:23,544] {processor.py:153} INFO - Started process (PID=1696) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:16:23,546] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:16:23,547] {logging_mixin.py:115} INFO - [2023-06-11 04:16:23,547] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:16:23,720] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:16:23,732] {logging_mixin.py:115} INFO - [2023-06-11 04:16:23,732] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:16:23,742] {logging_mixin.py:115} INFO - [2023-06-11 04:16:23,742] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:16:23,748] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.206 seconds
+[2023-06-11 04:16:53,834] {processor.py:153} INFO - Started process (PID=1727) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:16:53,837] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:16:53,839] {logging_mixin.py:115} INFO - [2023-06-11 04:16:53,839] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:16:54,040] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:16:54,054] {logging_mixin.py:115} INFO - [2023-06-11 04:16:54,054] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:16:54,067] {logging_mixin.py:115} INFO - [2023-06-11 04:16:54,067] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:16:54,073] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.244 seconds
+[2023-06-11 04:17:24,133] {processor.py:153} INFO - Started process (PID=1757) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:17:24,136] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:17:24,138] {logging_mixin.py:115} INFO - [2023-06-11 04:17:24,138] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:17:24,320] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:17:24,334] {logging_mixin.py:115} INFO - [2023-06-11 04:17:24,333] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:17:24,344] {logging_mixin.py:115} INFO - [2023-06-11 04:17:24,344] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:17:24,350] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.221 seconds
+[2023-06-11 04:17:54,417] {processor.py:153} INFO - Started process (PID=1787) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:17:54,420] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:17:54,422] {logging_mixin.py:115} INFO - [2023-06-11 04:17:54,422] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:17:54,666] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:17:54,688] {logging_mixin.py:115} INFO - [2023-06-11 04:17:54,688] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:17:54,706] {logging_mixin.py:115} INFO - [2023-06-11 04:17:54,706] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:17:54,716] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.301 seconds
+[2023-06-11 04:18:25,666] {processor.py:153} INFO - Started process (PID=1808) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:18:25,669] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:18:25,671] {logging_mixin.py:115} INFO - [2023-06-11 04:18:25,671] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:18:25,858] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:18:25,871] {logging_mixin.py:115} INFO - [2023-06-11 04:18:25,871] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:18:25,882] {logging_mixin.py:115} INFO - [2023-06-11 04:18:25,882] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:18:25,889] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.228 seconds
+[2023-06-11 04:18:56,831] {processor.py:153} INFO - Started process (PID=1839) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:18:56,835] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:18:56,837] {logging_mixin.py:115} INFO - [2023-06-11 04:18:56,837] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:18:57,021] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:18:57,034] {logging_mixin.py:115} INFO - [2023-06-11 04:18:57,034] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:18:57,044] {logging_mixin.py:115} INFO - [2023-06-11 04:18:57,044] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:18:57,049] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.223 seconds
+[2023-06-11 04:19:27,134] {processor.py:153} INFO - Started process (PID=1869) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:19:27,137] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:19:27,139] {logging_mixin.py:115} INFO - [2023-06-11 04:19:27,138] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:19:27,322] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:19:27,336] {logging_mixin.py:115} INFO - [2023-06-11 04:19:27,336] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:19:27,347] {logging_mixin.py:115} INFO - [2023-06-11 04:19:27,347] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:19:27,354] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.225 seconds
+[2023-06-11 04:19:57,401] {processor.py:153} INFO - Started process (PID=1898) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:19:57,404] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:19:57,407] {logging_mixin.py:115} INFO - [2023-06-11 04:19:57,407] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:19:57,606] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:19:57,620] {logging_mixin.py:115} INFO - [2023-06-11 04:19:57,620] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:19:57,631] {logging_mixin.py:115} INFO - [2023-06-11 04:19:57,631] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:19:57,638] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.242 seconds
+[2023-06-11 04:20:28,570] {processor.py:153} INFO - Started process (PID=1928) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:20:28,572] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:20:28,575] {logging_mixin.py:115} INFO - [2023-06-11 04:20:28,574] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:20:28,756] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:20:28,775] {logging_mixin.py:115} INFO - [2023-06-11 04:20:28,775] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:20:28,789] {logging_mixin.py:115} INFO - [2023-06-11 04:20:28,789] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:20:28,796] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.229 seconds
+[2023-06-11 04:20:58,840] {processor.py:153} INFO - Started process (PID=1959) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:20:58,842] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:20:58,844] {logging_mixin.py:115} INFO - [2023-06-11 04:20:58,844] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:20:59,017] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:20:59,031] {logging_mixin.py:115} INFO - [2023-06-11 04:20:59,031] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:20:59,042] {logging_mixin.py:115} INFO - [2023-06-11 04:20:59,042] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:20:59,049] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.211 seconds
+[2023-06-11 04:21:29,092] {processor.py:153} INFO - Started process (PID=1980) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:21:29,096] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:21:29,099] {logging_mixin.py:115} INFO - [2023-06-11 04:21:29,099] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:21:29,282] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:21:29,297] {logging_mixin.py:115} INFO - [2023-06-11 04:21:29,297] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:21:29,308] {logging_mixin.py:115} INFO - [2023-06-11 04:21:29,308] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:21:29,316] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.228 seconds
+[2023-06-11 04:22:00,251] {processor.py:153} INFO - Started process (PID=2010) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:22:00,253] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:22:00,255] {logging_mixin.py:115} INFO - [2023-06-11 04:22:00,255] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:22:00,441] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:22:00,457] {logging_mixin.py:115} INFO - [2023-06-11 04:22:00,457] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:22:00,468] {logging_mixin.py:115} INFO - [2023-06-11 04:22:00,468] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:22:00,475] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.229 seconds
+[2023-06-11 04:22:31,450] {processor.py:153} INFO - Started process (PID=2040) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:22:31,452] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:22:31,453] {logging_mixin.py:115} INFO - [2023-06-11 04:22:31,453] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:22:31,624] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:22:31,638] {logging_mixin.py:115} INFO - [2023-06-11 04:22:31,638] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:22:31,651] {logging_mixin.py:115} INFO - [2023-06-11 04:22:31,651] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:22:31,659] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.211 seconds
+[2023-06-11 04:23:01,703] {processor.py:153} INFO - Started process (PID=2069) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:23:01,705] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:23:01,708] {logging_mixin.py:115} INFO - [2023-06-11 04:23:01,708] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:23:01,907] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:23:01,924] {logging_mixin.py:115} INFO - [2023-06-11 04:23:01,924] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:23:01,936] {logging_mixin.py:115} INFO - [2023-06-11 04:23:01,936] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:23:01,943] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.244 seconds
+[2023-06-11 04:23:32,871] {processor.py:153} INFO - Started process (PID=2098) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:23:32,873] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:23:32,875] {logging_mixin.py:115} INFO - [2023-06-11 04:23:32,875] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:23:33,053] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:23:33,068] {logging_mixin.py:115} INFO - [2023-06-11 04:23:33,067] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:23:33,079] {logging_mixin.py:115} INFO - [2023-06-11 04:23:33,079] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:23:33,086] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.218 seconds
+[2023-06-11 04:24:03,190] {processor.py:153} INFO - Started process (PID=2127) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:24:03,191] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:24:03,193] {logging_mixin.py:115} INFO - [2023-06-11 04:24:03,193] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:24:03,368] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:24:03,383] {logging_mixin.py:115} INFO - [2023-06-11 04:24:03,383] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:24:03,394] {logging_mixin.py:115} INFO - [2023-06-11 04:24:03,394] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:24:03,401] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.213 seconds
+[2023-06-11 04:24:34,292] {processor.py:153} INFO - Started process (PID=2148) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:24:34,294] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:24:34,295] {logging_mixin.py:115} INFO - [2023-06-11 04:24:34,295] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:24:34,529] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:24:34,546] {logging_mixin.py:115} INFO - [2023-06-11 04:24:34,545] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:24:34,560] {logging_mixin.py:115} INFO - [2023-06-11 04:24:34,560] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:24:34,569] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.279 seconds
+[2023-06-11 04:25:05,565] {processor.py:153} INFO - Started process (PID=2178) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:25:05,566] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:25:05,568] {logging_mixin.py:115} INFO - [2023-06-11 04:25:05,567] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:25:05,748] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:25:05,765] {logging_mixin.py:115} INFO - [2023-06-11 04:25:05,765] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:25:05,776] {logging_mixin.py:115} INFO - [2023-06-11 04:25:05,776] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:25:05,782] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.220 seconds
+[2023-06-11 04:25:36,722] {processor.py:153} INFO - Started process (PID=2209) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:25:36,724] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:25:36,725] {logging_mixin.py:115} INFO - [2023-06-11 04:25:36,725] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:25:36,916] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:25:36,931] {logging_mixin.py:115} INFO - [2023-06-11 04:25:36,930] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:25:36,943] {logging_mixin.py:115} INFO - [2023-06-11 04:25:36,943] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:25:36,950] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.230 seconds
+[2023-06-11 04:26:07,916] {processor.py:153} INFO - Started process (PID=2238) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:26:07,918] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:26:07,920] {logging_mixin.py:115} INFO - [2023-06-11 04:26:07,920] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:26:08,104] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:26:08,118] {logging_mixin.py:115} INFO - [2023-06-11 04:26:08,118] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:26:08,129] {logging_mixin.py:115} INFO - [2023-06-11 04:26:08,129] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:26:08,136] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.224 seconds
+[2023-06-11 04:26:39,086] {processor.py:153} INFO - Started process (PID=2267) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:26:39,087] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:26:39,089] {logging_mixin.py:115} INFO - [2023-06-11 04:26:39,089] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:26:39,261] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:26:39,276] {logging_mixin.py:115} INFO - [2023-06-11 04:26:39,276] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:26:39,288] {logging_mixin.py:115} INFO - [2023-06-11 04:26:39,288] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:26:39,293] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.210 seconds
+[2023-06-11 04:27:09,396] {processor.py:153} INFO - Started process (PID=2297) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:27:09,399] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:27:09,402] {logging_mixin.py:115} INFO - [2023-06-11 04:27:09,402] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:27:09,608] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:27:09,622] {logging_mixin.py:115} INFO - [2023-06-11 04:27:09,621] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:27:09,633] {logging_mixin.py:115} INFO - [2023-06-11 04:27:09,633] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:27:09,639] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.251 seconds
+[2023-06-11 04:27:40,561] {processor.py:153} INFO - Started process (PID=2328) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:27:40,564] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:27:40,566] {logging_mixin.py:115} INFO - [2023-06-11 04:27:40,566] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:27:40,785] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:27:40,802] {logging_mixin.py:115} INFO - [2023-06-11 04:27:40,801] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:27:40,814] {logging_mixin.py:115} INFO - [2023-06-11 04:27:40,814] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:27:40,823] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.266 seconds
+[2023-06-11 04:28:11,769] {processor.py:153} INFO - Started process (PID=2359) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:28:11,770] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:28:11,772] {logging_mixin.py:115} INFO - [2023-06-11 04:28:11,772] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:28:11,947] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:28:11,961] {logging_mixin.py:115} INFO - [2023-06-11 04:28:11,961] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:28:11,972] {logging_mixin.py:115} INFO - [2023-06-11 04:28:11,972] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:28:11,978] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.212 seconds
+[2023-06-11 04:28:42,032] {processor.py:153} INFO - Started process (PID=2380) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:28:42,034] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:28:42,036] {logging_mixin.py:115} INFO - [2023-06-11 04:28:42,036] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:28:42,233] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:28:42,248] {logging_mixin.py:115} INFO - [2023-06-11 04:28:42,248] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:28:42,258] {logging_mixin.py:115} INFO - [2023-06-11 04:28:42,258] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:28:42,265] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.236 seconds
+[2023-06-11 04:29:13,203] {processor.py:153} INFO - Started process (PID=2410) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:29:13,206] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:29:13,209] {logging_mixin.py:115} INFO - [2023-06-11 04:29:13,209] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:29:13,408] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:29:13,428] {logging_mixin.py:115} INFO - [2023-06-11 04:29:13,427] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:29:13,447] {logging_mixin.py:115} INFO - [2023-06-11 04:29:13,447] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:29:13,460] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.262 seconds
+[2023-06-11 04:29:43,524] {processor.py:153} INFO - Started process (PID=2441) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:29:43,526] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:29:43,527] {logging_mixin.py:115} INFO - [2023-06-11 04:29:43,527] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:29:43,699] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:29:43,715] {logging_mixin.py:115} INFO - [2023-06-11 04:29:43,715] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:29:43,726] {logging_mixin.py:115} INFO - [2023-06-11 04:29:43,726] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:29:43,732] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.211 seconds
+[2023-06-11 04:30:14,659] {processor.py:153} INFO - Started process (PID=2471) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:30:14,661] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:30:14,662] {logging_mixin.py:115} INFO - [2023-06-11 04:30:14,662] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:30:14,840] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:30:14,855] {logging_mixin.py:115} INFO - [2023-06-11 04:30:14,855] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:30:14,868] {logging_mixin.py:115} INFO - [2023-06-11 04:30:14,868] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:30:14,876] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.220 seconds
+[2023-06-11 04:30:44,965] {processor.py:153} INFO - Started process (PID=2501) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:30:44,968] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:30:44,972] {logging_mixin.py:115} INFO - [2023-06-11 04:30:44,972] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:30:45,171] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:30:45,188] {logging_mixin.py:115} INFO - [2023-06-11 04:30:45,188] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:30:45,201] {logging_mixin.py:115} INFO - [2023-06-11 04:30:45,201] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:30:45,211] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.249 seconds
+[2023-06-11 04:31:16,121] {processor.py:153} INFO - Started process (PID=2531) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:31:16,124] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:31:16,129] {logging_mixin.py:115} INFO - [2023-06-11 04:31:16,128] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:31:16,336] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:31:16,351] {logging_mixin.py:115} INFO - [2023-06-11 04:31:16,351] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:31:16,363] {logging_mixin.py:115} INFO - [2023-06-11 04:31:16,363] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:31:16,370] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.254 seconds
+[2023-06-11 04:31:46,406] {processor.py:153} INFO - Started process (PID=2552) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:31:46,408] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:31:46,411] {logging_mixin.py:115} INFO - [2023-06-11 04:31:46,411] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:31:46,586] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:31:46,600] {logging_mixin.py:115} INFO - [2023-06-11 04:31:46,599] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:31:46,610] {logging_mixin.py:115} INFO - [2023-06-11 04:31:46,609] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:31:46,615] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.212 seconds
+[2023-06-11 04:32:17,568] {processor.py:153} INFO - Started process (PID=2582) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:32:17,569] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:32:17,571] {logging_mixin.py:115} INFO - [2023-06-11 04:32:17,571] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:32:17,752] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:32:17,766] {logging_mixin.py:115} INFO - [2023-06-11 04:32:17,766] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:32:17,777] {logging_mixin.py:115} INFO - [2023-06-11 04:32:17,777] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:32:17,784] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.219 seconds
+[2023-06-11 04:32:47,872] {processor.py:153} INFO - Started process (PID=2612) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:32:47,874] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:32:47,875] {logging_mixin.py:115} INFO - [2023-06-11 04:32:47,875] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:32:48,078] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:32:48,094] {logging_mixin.py:115} INFO - [2023-06-11 04:32:48,093] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:32:48,107] {logging_mixin.py:115} INFO - [2023-06-11 04:32:48,107] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:32:48,115] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.246 seconds
+[2023-06-11 04:33:19,064] {processor.py:153} INFO - Started process (PID=2642) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:33:19,066] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:33:19,070] {logging_mixin.py:115} INFO - [2023-06-11 04:33:19,070] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:33:19,257] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:33:19,270] {logging_mixin.py:115} INFO - [2023-06-11 04:33:19,270] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:33:19,282] {logging_mixin.py:115} INFO - [2023-06-11 04:33:19,282] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:33:19,288] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.231 seconds
+[2023-06-11 04:33:49,321] {processor.py:153} INFO - Started process (PID=2672) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:33:49,323] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:33:49,324] {logging_mixin.py:115} INFO - [2023-06-11 04:33:49,324] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:33:49,542] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:33:49,559] {logging_mixin.py:115} INFO - [2023-06-11 04:33:49,558] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:33:49,572] {logging_mixin.py:115} INFO - [2023-06-11 04:33:49,572] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:33:49,580] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.261 seconds
+[2023-06-11 04:34:20,463] {processor.py:153} INFO - Started process (PID=2702) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:34:20,465] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:34:20,468] {logging_mixin.py:115} INFO - [2023-06-11 04:34:20,468] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:34:20,668] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:34:20,683] {logging_mixin.py:115} INFO - [2023-06-11 04:34:20,683] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:34:20,693] {logging_mixin.py:115} INFO - [2023-06-11 04:34:20,693] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:34:20,699] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.239 seconds
+[2023-06-11 04:34:50,749] {processor.py:153} INFO - Started process (PID=2723) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:34:50,750] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:34:50,752] {logging_mixin.py:115} INFO - [2023-06-11 04:34:50,752] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:34:50,937] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:34:50,953] {logging_mixin.py:115} INFO - [2023-06-11 04:34:50,953] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:34:50,964] {logging_mixin.py:115} INFO - [2023-06-11 04:34:50,964] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:34:50,970] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.224 seconds
+[2023-06-11 04:35:21,870] {processor.py:153} INFO - Started process (PID=2753) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:35:21,871] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:35:21,873] {logging_mixin.py:115} INFO - [2023-06-11 04:35:21,873] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:35:22,049] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:35:22,063] {logging_mixin.py:115} INFO - [2023-06-11 04:35:22,063] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:35:22,074] {logging_mixin.py:115} INFO - [2023-06-11 04:35:22,074] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:35:22,080] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.212 seconds
+[2023-06-11 04:35:52,172] {processor.py:153} INFO - Started process (PID=2783) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:35:52,176] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:35:52,179] {logging_mixin.py:115} INFO - [2023-06-11 04:35:52,179] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:35:52,389] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:35:52,404] {logging_mixin.py:115} INFO - [2023-06-11 04:35:52,404] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:35:52,415] {logging_mixin.py:115} INFO - [2023-06-11 04:35:52,415] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:35:52,420] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.252 seconds
+[2023-06-11 04:36:23,354] {processor.py:153} INFO - Started process (PID=2814) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:36:23,357] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:36:23,361] {logging_mixin.py:115} INFO - [2023-06-11 04:36:23,361] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:36:23,653] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:36:23,672] {logging_mixin.py:115} INFO - [2023-06-11 04:36:23,672] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:36:23,685] {logging_mixin.py:115} INFO - [2023-06-11 04:36:23,685] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:36:23,695] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.347 seconds
+[2023-06-11 04:36:47,604] {processor.py:153} INFO - Started process (PID=2834) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:36:47,606] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:36:47,607] {logging_mixin.py:115} INFO - [2023-06-11 04:36:47,607] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:36:47,799] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:36:47,837] {logging_mixin.py:115} INFO - [2023-06-11 04:36:47,837] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:36:47,848] {logging_mixin.py:115} INFO - [2023-06-11 04:36:47,848] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:36:47,860] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.258 seconds
+[2023-06-11 04:37:17,961] {processor.py:153} INFO - Started process (PID=2863) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:37:17,963] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:37:17,965] {logging_mixin.py:115} INFO - [2023-06-11 04:37:17,965] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:37:18,170] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:37:18,184] {logging_mixin.py:115} INFO - [2023-06-11 04:37:18,184] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:37:18,196] {logging_mixin.py:115} INFO - [2023-06-11 04:37:18,196] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:37:18,203] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.246 seconds
+[2023-06-11 04:37:40,069] {processor.py:153} INFO - Started process (PID=2883) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:37:40,070] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:37:40,072] {logging_mixin.py:115} INFO - [2023-06-11 04:37:40,072] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:37:40,262] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:37:40,291] {logging_mixin.py:115} INFO - [2023-06-11 04:37:40,291] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:37:40,303] {logging_mixin.py:115} INFO - [2023-06-11 04:37:40,303] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:37:40,314] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.247 seconds
+[2023-06-11 04:38:10,478] {processor.py:153} INFO - Started process (PID=2913) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:38:10,480] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:38:10,482] {logging_mixin.py:115} INFO - [2023-06-11 04:38:10,482] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:38:10,679] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:38:10,696] {logging_mixin.py:115} INFO - [2023-06-11 04:38:10,696] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:38:10,708] {logging_mixin.py:115} INFO - [2023-06-11 04:38:10,708] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:38:10,717] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.241 seconds
+[2023-06-11 04:38:41,692] {processor.py:153} INFO - Started process (PID=2941) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:38:41,694] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:38:41,696] {logging_mixin.py:115} INFO - [2023-06-11 04:38:41,696] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:38:41,882] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:38:41,895] {logging_mixin.py:115} INFO - [2023-06-11 04:38:41,895] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:38:41,907] {logging_mixin.py:115} INFO - [2023-06-11 04:38:41,907] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:38:41,916] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.229 seconds
+[2023-06-11 04:39:11,986] {processor.py:153} INFO - Started process (PID=2971) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:39:11,988] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:39:11,990] {logging_mixin.py:115} INFO - [2023-06-11 04:39:11,990] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:39:12,235] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:39:12,250] {logging_mixin.py:115} INFO - [2023-06-11 04:39:12,249] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:39:12,260] {logging_mixin.py:115} INFO - [2023-06-11 04:39:12,260] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:39:12,267] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.283 seconds
+[2023-06-11 04:39:43,152] {processor.py:153} INFO - Started process (PID=2992) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:39:43,156] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:39:43,158] {logging_mixin.py:115} INFO - [2023-06-11 04:39:43,158] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:39:43,350] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:39:43,365] {logging_mixin.py:115} INFO - [2023-06-11 04:39:43,365] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:39:43,375] {logging_mixin.py:115} INFO - [2023-06-11 04:39:43,375] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:39:43,381] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.233 seconds
+[2023-06-11 04:39:44,243] {processor.py:153} INFO - Started process (PID=3003) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:39:44,245] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:39:44,247] {logging_mixin.py:115} INFO - [2023-06-11 04:39:44,247] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:39:44,477] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:39:44,526] {logging_mixin.py:115} INFO - [2023-06-11 04:39:44,526] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:39:44,546] {logging_mixin.py:115} INFO - [2023-06-11 04:39:44,546] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:39:44,572] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.333 seconds
+[2023-06-11 04:40:15,551] {processor.py:153} INFO - Started process (PID=3024) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:40:15,553] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:40:15,554] {logging_mixin.py:115} INFO - [2023-06-11 04:40:15,554] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:40:15,729] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:40:15,743] {logging_mixin.py:115} INFO - [2023-06-11 04:40:15,742] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:40:15,753] {logging_mixin.py:115} INFO - [2023-06-11 04:40:15,753] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:40:15,760] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.210 seconds
+[2023-06-11 04:40:46,719] {processor.py:153} INFO - Started process (PID=3053) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:40:46,721] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:40:46,723] {logging_mixin.py:115} INFO - [2023-06-11 04:40:46,722] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:40:46,933] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:40:46,968] {logging_mixin.py:115} INFO - [2023-06-11 04:40:46,968] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:40:46,979] {logging_mixin.py:115} INFO - [2023-06-11 04:40:46,979] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:40:46,989] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.272 seconds
+[2023-06-11 04:41:17,912] {processor.py:153} INFO - Started process (PID=3083) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:41:17,913] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:41:17,914] {logging_mixin.py:115} INFO - [2023-06-11 04:41:17,914] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:41:18,091] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:41:18,105] {logging_mixin.py:115} INFO - [2023-06-11 04:41:18,105] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:41:18,117] {logging_mixin.py:115} INFO - [2023-06-11 04:41:18,117] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:41:18,125] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.215 seconds
+[2023-06-11 04:41:48,157] {processor.py:153} INFO - Started process (PID=3112) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:41:48,159] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:41:48,161] {logging_mixin.py:115} INFO - [2023-06-11 04:41:48,160] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:41:48,381] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:41:48,400] {logging_mixin.py:115} INFO - [2023-06-11 04:41:48,400] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:41:48,414] {logging_mixin.py:115} INFO - [2023-06-11 04:41:48,414] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:41:48,430] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.276 seconds
+[2023-06-11 04:42:19,328] {processor.py:153} INFO - Started process (PID=3140) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:42:19,331] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:42:19,334] {logging_mixin.py:115} INFO - [2023-06-11 04:42:19,334] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:42:19,622] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:42:19,636] {logging_mixin.py:115} INFO - [2023-06-11 04:42:19,636] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:42:19,647] {logging_mixin.py:115} INFO - [2023-06-11 04:42:19,647] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:42:19,654] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.330 seconds
+[2023-06-11 04:42:49,706] {processor.py:153} INFO - Started process (PID=3169) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:42:49,707] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:42:49,709] {logging_mixin.py:115} INFO - [2023-06-11 04:42:49,709] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:42:49,878] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:42:49,891] {logging_mixin.py:115} INFO - [2023-06-11 04:42:49,891] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:42:49,902] {logging_mixin.py:115} INFO - [2023-06-11 04:42:49,902] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:42:49,909] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.205 seconds
+[2023-06-11 04:43:19,950] {processor.py:153} INFO - Started process (PID=3190) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:43:19,952] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:43:19,953] {logging_mixin.py:115} INFO - [2023-06-11 04:43:19,953] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:43:20,129] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:43:20,143] {logging_mixin.py:115} INFO - [2023-06-11 04:43:20,143] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:43:20,154] {logging_mixin.py:115} INFO - [2023-06-11 04:43:20,154] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:43:20,160] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.212 seconds
+[2023-06-11 04:43:50,190] {processor.py:153} INFO - Started process (PID=3220) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:43:50,192] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:43:50,194] {logging_mixin.py:115} INFO - [2023-06-11 04:43:50,194] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:43:50,368] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:43:50,383] {logging_mixin.py:115} INFO - [2023-06-11 04:43:50,383] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:43:50,394] {logging_mixin.py:115} INFO - [2023-06-11 04:43:50,394] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:43:50,402] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.213 seconds
+[2023-06-11 04:44:20,438] {processor.py:153} INFO - Started process (PID=3251) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:44:20,439] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:44:20,442] {logging_mixin.py:115} INFO - [2023-06-11 04:44:20,442] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:44:20,629] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:44:20,646] {logging_mixin.py:115} INFO - [2023-06-11 04:44:20,646] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:44:20,657] {logging_mixin.py:115} INFO - [2023-06-11 04:44:20,657] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:44:20,663] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.228 seconds
+[2023-06-11 04:44:51,616] {processor.py:153} INFO - Started process (PID=3281) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:44:51,618] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:44:51,621] {logging_mixin.py:115} INFO - [2023-06-11 04:44:51,620] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:44:51,806] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:44:51,819] {logging_mixin.py:115} INFO - [2023-06-11 04:44:51,818] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:44:51,830] {logging_mixin.py:115} INFO - [2023-06-11 04:44:51,830] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:44:51,837] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.227 seconds
+[2023-06-11 04:45:21,985] {processor.py:153} INFO - Started process (PID=3311) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:45:21,988] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:45:21,993] {logging_mixin.py:115} INFO - [2023-06-11 04:45:21,993] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:45:22,191] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:45:22,205] {logging_mixin.py:115} INFO - [2023-06-11 04:45:22,205] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:45:22,216] {logging_mixin.py:115} INFO - [2023-06-11 04:45:22,216] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:45:22,222] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.241 seconds
+[2023-06-11 04:45:52,260] {processor.py:153} INFO - Started process (PID=3340) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:45:52,263] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:45:52,265] {logging_mixin.py:115} INFO - [2023-06-11 04:45:52,265] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:45:52,476] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:45:52,495] {logging_mixin.py:115} INFO - [2023-06-11 04:45:52,495] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:45:52,510] {logging_mixin.py:115} INFO - [2023-06-11 04:45:52,510] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:45:52,520] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.262 seconds
+[2023-06-11 04:46:23,430] {processor.py:153} INFO - Started process (PID=3363) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:46:23,433] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:46:23,435] {logging_mixin.py:115} INFO - [2023-06-11 04:46:23,435] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:46:23,618] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:46:23,632] {logging_mixin.py:115} INFO - [2023-06-11 04:46:23,631] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:46:23,643] {logging_mixin.py:115} INFO - [2023-06-11 04:46:23,643] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:46:23,650] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.223 seconds
+[2023-06-11 04:46:53,700] {processor.py:153} INFO - Started process (PID=3394) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:46:53,704] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:46:53,707] {logging_mixin.py:115} INFO - [2023-06-11 04:46:53,706] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:46:53,896] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:46:53,910] {logging_mixin.py:115} INFO - [2023-06-11 04:46:53,910] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:46:53,921] {logging_mixin.py:115} INFO - [2023-06-11 04:46:53,921] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:46:53,927] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.232 seconds
+[2023-06-11 04:47:24,027] {processor.py:153} INFO - Started process (PID=3423) to work on /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:47:24,030] {processor.py:641} INFO - Processing file /opt/airflow/dags/unscheduled.py for tasks to queue
+[2023-06-11 04:47:24,032] {logging_mixin.py:115} INFO - [2023-06-11 04:47:24,032] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:47:24,214] {processor.py:651} INFO - DAG(s) dict_keys(['01_unscheduled']) retrieved from /opt/airflow/dags/unscheduled.py
+[2023-06-11 04:47:24,229] {logging_mixin.py:115} INFO - [2023-06-11 04:47:24,228] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-11 04:47:24,242] {logging_mixin.py:115} INFO - [2023-06-11 04:47:24,242] {dag.py:2972} INFO - Setting next_dagrun for 01_unscheduled to None, run_after=None
+[2023-06-11 04:47:24,251] {processor.py:161} INFO - Processing /opt/airflow/dags/unscheduled.py took 0.227 seconds

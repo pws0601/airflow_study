@@ -1,31 +1,0 @@
-[2023-06-10 16:49:56,152] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: download_rocket_launches.download_launches scheduled__2023-06-02T00:00:00+00:00 [queued]>
-[2023-06-10 16:49:56,163] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: download_rocket_launches.download_launches scheduled__2023-06-02T00:00:00+00:00 [queued]>
-[2023-06-10 16:49:56,164] {taskinstance.py:1376} INFO - 
---------------------------------------------------------------------------------
-[2023-06-10 16:49:56,166] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
-[2023-06-10 16:49:56,167] {taskinstance.py:1378} INFO - 
---------------------------------------------------------------------------------
-[2023-06-10 16:49:56,180] {taskinstance.py:1397} INFO - Executing <Task(BashOperator): download_launches> on 2023-06-02 00:00:00+00:00
-[2023-06-10 16:49:56,186] {standard_task_runner.py:52} INFO - Started process 86 to run task
-[2023-06-10 16:49:56,188] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'download_rocket_launches', 'download_launches', 'scheduled__2023-06-02T00:00:00+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/download_rocket_launches.py', '--cfg-path', '/tmp/tmphtl7892i', '--error-file', '/tmp/tmp1jonwhif']
-[2023-06-10 16:49:56,191] {standard_task_runner.py:80} INFO - Job 25: Subtask download_launches
-[2023-06-10 16:49:56,264] {task_command.py:371} INFO - Running <TaskInstance: download_rocket_launches.download_launches scheduled__2023-06-02T00:00:00+00:00 [running]> on host fd847b0d0eb3
-[2023-06-10 16:49:56,344] {taskinstance.py:1591} INFO - Exporting the following env vars:
-AIRFLOW_CTX_DAG_OWNER=***
-AIRFLOW_CTX_DAG_ID=download_rocket_launches
-AIRFLOW_CTX_TASK_ID=download_launches
-AIRFLOW_CTX_EXECUTION_DATE=2023-06-02T00:00:00+00:00
-AIRFLOW_CTX_TRY_NUMBER=1
-AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-06-02T00:00:00+00:00
-[2023-06-10 16:49:56,347] {subprocess.py:62} INFO - Tmp dir root location: 
- /tmp
-[2023-06-10 16:49:56,348] {subprocess.py:74} INFO - Running command: ['bash', '-c', "curl -o /tmp/launches.json -L 'https://ll.thespacedevs.com/2.0.0/launch/upcoming'"]
-[2023-06-10 16:49:56,370] {subprocess.py:85} INFO - Output:
-[2023-06-10 16:49:56,377] {subprocess.py:92} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-[2023-06-10 16:49:56,379] {subprocess.py:92} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
-[2023-06-10 16:49:57,101] {subprocess.py:92} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-[2023-06-10 16:49:58,145] {subprocess.py:92} INFO -   0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100 22256  100 22256    0     0  12595      0  0:00:01  0:00:01 --:--:--  505k
-[2023-06-10 16:49:58,146] {subprocess.py:96} INFO - Command exited with return code 0
-[2023-06-10 16:49:58,168] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=download_rocket_launches, task_id=download_launches, execution_date=20230602T000000, start_date=20230610T164956, end_date=20230610T164958
-[2023-06-10 16:49:58,185] {local_task_job.py:156} INFO - Task exited with return code 0
-[2023-06-10 16:49:58,221] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

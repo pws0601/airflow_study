@@ -1,0 +1,11 @@
+[2023-06-12 01:28:01,699] {processor.py:153} INFO - Started process (PID=39) to work on /opt/airflow/dags/listing_4_15.py
+[2023-06-12 01:28:01,700] {processor.py:641} INFO - Processing file /opt/airflow/dags/listing_4_15.py for tasks to queue
+[2023-06-12 01:28:01,701] {logging_mixin.py:115} INFO - [2023-06-12 01:28:01,701] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/listing_4_15.py
+[2023-06-12 01:28:01,721] {processor.py:651} INFO - DAG(s) dict_keys(['listing_4_15']) retrieved from /opt/airflow/dags/listing_4_15.py
+[2023-06-12 01:28:01,825] {logging_mixin.py:115} INFO - [2023-06-12 01:28:01,825] {manager.py:508} INFO - Created Permission View: can read on DAG:listing_4_15
+[2023-06-12 01:28:01,835] {logging_mixin.py:115} INFO - [2023-06-12 01:28:01,835] {manager.py:508} INFO - Created Permission View: can edit on DAG:listing_4_15
+[2023-06-12 01:28:01,843] {logging_mixin.py:115} INFO - [2023-06-12 01:28:01,843] {manager.py:508} INFO - Created Permission View: can delete on DAG:listing_4_15
+[2023-06-12 01:28:01,844] {logging_mixin.py:115} INFO - [2023-06-12 01:28:01,843] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-12 01:28:01,854] {logging_mixin.py:115} INFO - [2023-06-12 01:28:01,853] {dag.py:2439} INFO - Creating ORM DAG for listing_4_15
+[2023-06-12 01:28:01,868] {logging_mixin.py:115} INFO - [2023-06-12 01:28:01,868] {dag.py:2972} INFO - Setting next_dagrun for listing_4_15 to 2023-06-11T00:00:00+00:00, run_after=2023-06-11T01:00:00+00:00
+[2023-06-12 01:28:01,882] {processor.py:161} INFO - Processing /opt/airflow/dags/listing_4_15.py took 0.188 seconds

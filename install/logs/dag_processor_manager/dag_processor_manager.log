@@ -7724,3 +7724,21 @@ File Path                                        PID  Runtime      # DAGs    # E
 [2023-06-11 07:41:01,980] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
 [2023-06-11 07:41:02,018] {manager.py:693} INFO - There are 5 files in /opt/airflow/dags
 [2023-06-11 07:41:13,148] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2023-06-12 01:28:01,107] {manager.py:480} INFO - Processing files using up to 2 processes at a time 
+[2023-06-12 01:28:01,108] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2023-06-12 01:28:01,109] {manager.py:483} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-06-12 01:28:01,110] {manager.py:690} INFO - Searching for files in /opt/airflow/dags
+[2023-06-12 01:28:01,141] {manager.py:693} INFO - There are 5 files in /opt/airflow/dags
+[2023-06-12 01:28:01,310] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/download_rocket_launches.py     37  0.03s             0           0
+/opt/airflow/dags/listing_4_13.py                 38  0.02s             0           0
+/opt/airflow/dags/listing_4_15.py                                       0           0
+/opt/airflow/dags/listing_4_3.py                                        0           0
+/opt/airflow/dags/unscheduled.py                                        0           0
+================================================================================
+[2023-06-12 01:28:23,147] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15

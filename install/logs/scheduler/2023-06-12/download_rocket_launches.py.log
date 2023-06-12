@@ -1,0 +1,11 @@
+[2023-06-12 01:28:01,298] {processor.py:153} INFO - Started process (PID=37) to work on /opt/airflow/dags/download_rocket_launches.py
+[2023-06-12 01:28:01,299] {processor.py:641} INFO - Processing file /opt/airflow/dags/download_rocket_launches.py for tasks to queue
+[2023-06-12 01:28:01,300] {logging_mixin.py:115} INFO - [2023-06-12 01:28:01,300] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/download_rocket_launches.py
+[2023-06-12 01:28:01,376] {processor.py:651} INFO - DAG(s) dict_keys(['download_rocket_launches']) retrieved from /opt/airflow/dags/download_rocket_launches.py
+[2023-06-12 01:28:01,618] {logging_mixin.py:115} INFO - [2023-06-12 01:28:01,618] {manager.py:508} INFO - Created Permission View: can read on DAG:download_rocket_launches
+[2023-06-12 01:28:01,627] {logging_mixin.py:115} INFO - [2023-06-12 01:28:01,627] {manager.py:508} INFO - Created Permission View: can edit on DAG:download_rocket_launches
+[2023-06-12 01:28:01,634] {logging_mixin.py:115} INFO - [2023-06-12 01:28:01,634] {manager.py:508} INFO - Created Permission View: can delete on DAG:download_rocket_launches
+[2023-06-12 01:28:01,635] {logging_mixin.py:115} INFO - [2023-06-12 01:28:01,635] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-06-12 01:28:01,644] {logging_mixin.py:115} INFO - [2023-06-12 01:28:01,644] {dag.py:2439} INFO - Creating ORM DAG for download_rocket_launches
+[2023-06-12 01:28:01,657] {logging_mixin.py:115} INFO - [2023-06-12 01:28:01,657] {dag.py:2972} INFO - Setting next_dagrun for download_rocket_launches to 2023-05-29T00:00:00+00:00, run_after=2023-05-30T00:00:00+00:00
+[2023-06-12 01:28:01,670] {processor.py:161} INFO - Processing /opt/airflow/dags/download_rocket_launches.py took 0.377 seconds

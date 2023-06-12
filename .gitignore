@@ -1,3 +1,4 @@
 #log 제외
-./install/logs
+./install/logs/
+./install/dags/__pycache__/
 

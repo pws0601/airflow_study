@@ -7759,3 +7759,51 @@ File Path                                        PID  Runtime      # DAGs    # E
 /opt/airflow/dags/listing_4_3.py                                        0           0
 /opt/airflow/dags/unscheduled.py                                        0           0
 ================================================================================
+[2023-06-12 01:34:43,356] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.25s           2023-06-12T01:34:13
+/opt/airflow/dags/listing_4_13.py                                       1           0  0.25s           2023-06-12T01:34:13
+/opt/airflow/dags/listing_4_15.py                                       1           0  0.27s           2023-06-12T01:34:13
+/opt/airflow/dags/listing_4_3.py                                        1           0  0.23s           2023-06-12T01:34:13
+/opt/airflow/dags/unscheduled.py                                        1           0  0.47s           2023-06-12T01:34:14
+================================================================================
+[2023-06-12 01:35:13,651] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.23s           2023-06-12T01:34:44
+/opt/airflow/dags/listing_4_13.py                                       1           0  0.22s           2023-06-12T01:34:44
+/opt/airflow/dags/listing_4_15.py                                       1           0  0.22s           2023-06-12T01:34:44
+/opt/airflow/dags/listing_4_3.py                                        1           0  0.22s           2023-06-12T01:34:44
+/opt/airflow/dags/unscheduled.py                                        1           0  0.39s           2023-06-12T01:34:44
+================================================================================
+[2023-06-12 01:35:43,785] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.24s           2023-06-12T01:35:14
+/opt/airflow/dags/listing_4_13.py                                       1           0  0.22s           2023-06-12T01:35:14
+/opt/airflow/dags/listing_4_15.py                                       1           0  0.21s           2023-06-12T01:35:15
+/opt/airflow/dags/listing_4_3.py                                        1           0  0.22s           2023-06-12T01:35:15
+/opt/airflow/dags/unscheduled.py                                        1           0  0.43s           2023-06-12T01:35:15
+================================================================================
+[2023-06-12 01:36:14,099] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/download_rocket_launches.py                           1           0  0.24s           2023-06-12T01:35:45
+/opt/airflow/dags/listing_4_13.py                                       1           0  0.23s           2023-06-12T01:35:45
+/opt/airflow/dags/listing_4_15.py                                       1           0  0.22s           2023-06-12T01:35:45
+/opt/airflow/dags/listing_4_3.py                                        1           0  0.22s           2023-06-12T01:35:46
+/opt/airflow/dags/unscheduled.py                                        1           0  0.40s           2023-06-12T01:35:46
+================================================================================

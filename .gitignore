@@ -1,4 +1,5 @@
 #log 제외
 install/logs/
 install/dags/__pycache__/
+install/.env
 

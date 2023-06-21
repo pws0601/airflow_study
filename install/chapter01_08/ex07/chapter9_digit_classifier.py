@@ -25,7 +25,7 @@ download_mnist_data = S3CopyObjectOperator(
     task_id="download_mnist_data",
     source_bucket_name="sagemaker-sample-data-eu-west-1",
     source_bucket_key="algorithms/kmeans/mnist/mnist.pkl.gz",
-    dest_bucket_name="parkdev",
+    dest_bucket_name="parkdevtest",
     dest_bucket_key="mnist.pkl.gz",
     dag=dag,
 )
@@ -36,7 +36,7 @@ def _extract_mnist_data():
 
     # Download S3 dataset into memory
     mnist_buffer = io.BytesIO()
-    mnist_obj = s3hook.get_key(bucket_name="parkdev", key="mnist.pkl.gz")
+    mnist_obj = s3hook.get_key(bucket_name="parkdevtest", key="mnist.pkl.gz")
     mnist_obj.download_fileobj(mnist_buffer)
 
     # Unpack gzip file, extract dataset, convert to dense tensor, upload back to S3
@@ -49,7 +49,7 @@ def _extract_mnist_data():
         )
         output_buffer.seek(0)
         s3hook.load_file_obj(
-            output_buffer, key="mnist_data", bucket_name="parkdev", replace=True
+            output_buffer, key="mnist_data", bucket_name="parkdevtest", replace=True
         )
 
 
@@ -72,13 +72,13 @@ sagemaker_train_model = SageMakerTrainingOperator(
                 "DataSource": {
                     "S3DataSource": {
                         "S3DataType": "S3Prefix",
-                        "S3Uri": "s3://parkdev/mnist_data",
+                        "S3Uri": "s3://parkdevtest/mnist_data",
                         "S3DataDistributionType": "FullyReplicated",
                     }
                 },
             }
         ],
-        "OutputDataConfig": {"S3OutputPath": "s3://parkdev/mnistclassifier-output"},
+        "OutputDataConfig": {"S3OutputPath": "s3://parkdevtest/mnistclassifier-output"},
         "ResourceConfig": {
             "InstanceType": "ml.c4.xlarge",
             "InstanceCount": 1,
@@ -106,7 +106,7 @@ sagemaker_deploy_model = SageMakerEndpointOperator(
             "PrimaryContainer": {
                 "Image": "438346466558.dkr.ecr.eu-west-1.amazonaws.com/kmeans:1",
                 "ModelDataUrl": (
-                    "s3://parkdev/mnistclassifier-output/mnistclassifier"
+                    "s3://parkdevtest/mnistclassifier-output/mnistclassifier"
                     "-{{ execution_date.strftime('%Y-%m-%d-%H-%M-%S') }}/"
                     "output/model.tar.gz"
                 ),  # this will link the model and the training job
